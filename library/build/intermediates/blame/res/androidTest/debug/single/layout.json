@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\calendar_view.xml",
+        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\calendar_view.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\date_grid_fragment.xml",
+        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\date_grid_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\date_cell.xml",
+        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\date_cell.xml"
+    }
+]

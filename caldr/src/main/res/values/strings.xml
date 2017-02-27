@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Календарь смен РЦУ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings1">Подсветить первкю смену</string>
+    <string name="action_settings2">Подсветить вторую смену</string>
+    <string name="action_settings3">Подсветить третью смену</string>
+    <string name="action_sostav">Изм. состав смен</string>
+    <string name="action_exit">Выход</string>
+    <string name="app_set">Настройки</string>
+    <string name="_">Вернуться на сегодня</string>
+
+</resources>
