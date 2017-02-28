@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 196
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 317
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 370
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 424
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 481
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 530
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 644
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 695
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 810
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 948
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1063
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1109
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1162
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -392,14 +392,14 @@
                     "endOffset": 1453
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
+                        "endOffset": 484
                     }
                 }
             },
@@ -413,14 +413,14 @@
                     "endOffset": 1613
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 679
+                        "endOffset": 682
                     }
                 }
             }

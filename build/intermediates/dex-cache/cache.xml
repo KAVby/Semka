@@ -8,34 +8,34 @@
         optimize="true"
         revision="25.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\pre-dexed\debug\support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" />
+        <dex dex="C:\Android\workspace2\Android\Android\caldr\build\intermediates\pre-dexed\debug\support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="703e71f5dd61d0afd35947ab116a78ffbe60ac76">
-        <dex dex="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\pre-dexed\debug\instant-run-bootstrap_dc38dc2c62e994408259689f4908e900796ec0cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\exploded-aar\caldr1\library\unspecified\jars\libs\date4j.jar"
+        jar="C:\Android\workspace2\Android\Android\caldr\build\intermediates\exploded-aar\Android\library\unspecified\jars\libs\date4j.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="543efec7c462ed7b5eabf8fc77f87bd35e18cd0b">
-        <dex dex="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\pre-dexed\debug\date4j_bf8107e4c99ca058adfe47f3f17fd826a5f884f7.jar" />
+        <dex dex="C:\Android\workspace2\Android\Android\caldr\build\intermediates\pre-dexed\debug\date4j_c32700c080d2636b450e6d6c2297b321a1c45bd4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Android\workspace2\Android\Android\caldr\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7e33a44cd6682af4436151815f0643c10ec0b5f1">
-        <dex dex="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\pre-dexed\debug\instant-run_ae1fc52ac8732841519c59877d5b235258ff9ba8.jar" />
+        sha1="4d57051f1383067f1d88cd63ca5e1be7b2ea5fe1">
+        <dex dex="C:\Android\workspace2\Android\Android\caldr\build\intermediates\pre-dexed\debug\instant-run-bootstrap_74a3917c4bdc68d79208972d30a28c9a6b367896.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\workspace2\Android\Android\caldr\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc51e8fe9c8631f90d11f10df7e92ff99a1fb0c1">
+        <dex dex="C:\Android\workspace2\Android\Android\caldr\build\intermediates\pre-dexed\debug\instant-run_23235359b92b63b45d5df5631602376d4f83b5d3.jar" />
     </item>
 
 </items>

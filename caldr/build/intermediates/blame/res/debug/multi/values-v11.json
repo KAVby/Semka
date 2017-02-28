@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\caldr\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 182,
+                        "startOffset": 183,
                         "endLine": 8,
                         "endColumn": 12,
-                        "endOffset": 316
+                        "endOffset": 317
                     }
                 }
             }

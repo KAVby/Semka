@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <color name="caldroid_white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="_">Вернуться на сегодня</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_settings1">Подсветить первкю смену</string>
+    <string name="action_settings2">Подсветить вторую смену</string>
+    <string name="action_settings3">Подсветить третью смену</string>
+    <string name="action_sostav">Изм. состав смен</string>
+    <string name="app_name">Календарь смен РЦУ</string>
+    <string name="app_set">Настройки</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
