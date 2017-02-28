@@ -306,6 +306,15 @@ public class MainActivity extends FragmentActivity {
 
 			return true;
 		}
+		if (id == R.id.visluga) {
+
+
+			Intent intent = new Intent(MainActivity.this, VislugaActivity.class);
+			MainActivity.this.finish();
+			startActivity(intent);
+
+			return true;
+		}
 		if (id == R.id.exit) {
 
 			this.finish();

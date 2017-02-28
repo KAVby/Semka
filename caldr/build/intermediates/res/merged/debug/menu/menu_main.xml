@@ -23,6 +23,11 @@
         android:showAsAction="never"
         android:title="@string/action_sostav"/>
     <item
+        android:id="@+id/visluga"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Выслуга"/>
+    <item
         android:id="@+id/exit"
         android:orderInCategory="100"
         android:showAsAction="never"

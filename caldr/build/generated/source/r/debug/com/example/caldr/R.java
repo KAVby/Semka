@@ -43,34 +43,40 @@ public final class R {
         public static final int TextView1=0x7f0a0001;
         public static final int TextView2=0x7f0a0003;
         public static final int calendar1=0x7f0a0000;
-        public static final int calendar_gridview=0x7f0a0015;
-        public static final int calendar_left_arrow=0x7f0a000f;
-        public static final int calendar_month_year_textview=0x7f0a0010;
-        public static final int calendar_right_arrow=0x7f0a0011;
-        public static final int calendar_title_view=0x7f0a000e;
-        public static final int calendar_tv=0x7f0a0014;
+        public static final int calendar_gridview=0x7f0a0019;
+        public static final int calendar_left_arrow=0x7f0a0013;
+        public static final int calendar_month_year_textview=0x7f0a0014;
+        public static final int calendar_right_arrow=0x7f0a0015;
+        public static final int calendar_title_view=0x7f0a0012;
+        public static final int calendar_tv=0x7f0a0018;
+        public static final int datePicker=0x7f0a0010;
         public static final int editText1=0x7f0a0008;
         public static final int editText2=0x7f0a0009;
         public static final int editText3=0x7f0a000b;
-        public static final int exit=0x7f0a001a;
+        public static final int exit=0x7f0a001f;
         public static final int horizontalScrollView1=0x7f0a0002;
-        public static final int months_infinite_pager=0x7f0a0013;
-        public static final int smena1=0x7f0a0016;
-        public static final int smena2=0x7f0a0017;
-        public static final int smena3=0x7f0a0018;
-        public static final int sostav=0x7f0a0019;
+        public static final int months_infinite_pager=0x7f0a0017;
+        public static final int ok=0x7f0a0011;
+        public static final int smena1=0x7f0a001a;
+        public static final int smena2=0x7f0a001b;
+        public static final int smena3=0x7f0a001c;
+        public static final int sostav=0x7f0a001d;
         public static final int textView=0x7f0a0005;
         public static final int textView1=0x7f0a0007;
         public static final int textView2=0x7f0a0006;
         public static final int textView3=0x7f0a000a;
-        public static final int weekday_gridview=0x7f0a0012;
+        public static final int textViewDate=0x7f0a000f;
+        public static final int visluga=0x7f0a001e;
+        public static final int vislugalay=0x7f0a000e;
+        public static final int weekday_gridview=0x7f0a0016;
     }
     public static final class layout {
         public static final int activity_main=0x7f040000;
         public static final int activity_settings=0x7f040001;
-        public static final int calendar_view=0x7f040002;
-        public static final int date_cell=0x7f040003;
-        public static final int date_grid_fragment=0x7f040004;
+        public static final int activity_visluga=0x7f040002;
+        public static final int calendar_view=0x7f040003;
+        public static final int date_cell=0x7f040004;
+        public static final int date_grid_fragment=0x7f040005;
     }
     public static final class menu {
         public static final int menu_main=0x7f090000;

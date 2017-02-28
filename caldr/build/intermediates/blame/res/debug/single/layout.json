@@ -8,6 +8,10 @@
         "source": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\layout\\date_grid_fragment.xml"
     },
     {
+        "merged": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visluga.xml",
+        "source": "C:\\Android\\workspace2\\Android\\Android\\caldr\\src\\main\\res\\layout\\activity_visluga.xml"
+    },
+    {
         "merged": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\res\\merged\\debug\\layout\\date_cell.xml",
         "source": "C:\\Android\\workspace2\\Android\\Android\\caldr\\build\\intermediates\\exploded-aar\\Android\\library\\unspecified\\res\\layout\\date_cell.xml"
     },
