@@ -2,6 +2,7 @@ package com.example.caldr;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.format.DateUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -81,7 +82,7 @@ public  int diferenceDate(int field, Calendar c1, Calendar c2 ){
     {
         count++;
     }
-    return count;
+        return count;
 
 }
 
