@@ -4,6 +4,10 @@
         "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
         "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     }

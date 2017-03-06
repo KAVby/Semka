@@ -74,10 +74,28 @@ public void onclick11 (View v33){
             //+"\n"+d1+"\n милисек"+t3+"\n год"+(year_now-year)+"\n месяц"+(month_now-month)+"\n день"+(day_now-day));
     }
 
-public  int diferenceDate(int field, Calendar c1, Calendar c2 ){
+public  int diferenceDate(int field, Calendar c1, Calendar c2){
     int count = 0;
     gc1 = (Calendar)c1.clone();
     gc2 = (Calendar)c2.clone();
+
+           // очищаем поля, которые мы не будем учитывать при сравнении дат
+if (field==Calendar.YEAR) {
+    for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
+    {
+        count++;
+    }
+}
+    if (field==Calendar.MONTH){
+            gc1.clear(Calendar.YEAR);
+            gc2.clear(Calendar.YEAR);
+       
+
+    }
+//    gc1.clear(Calendar.MONTH);
+//    gc2.clear(Calendar.MONTH);
+
+
     for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
     {
         count++;

@@ -1,4 +1,4 @@
-#Sun Mar 05 22:57:30 GMT+03:00 2017
-base.0=D\:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Mar 06 20:42:41 EET 2017
+base.0=C\:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=D\:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
