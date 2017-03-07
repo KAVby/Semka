@@ -68,64 +68,10 @@ public void onclick11 (View v33){
 
 
 
-    mTextDate.setText(sdf.format(c1.getTime())+"Выслуга:\n"+"\nЛет  " +diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+    mTextDate.setText(sdf.format(c1.getTime())+"Выслуга:\n"+"\nЛет  " +DifDate.diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+DifDate.diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
              }
 
-public  int diferenceDate(int field, Calendar c1, Calendar c2){
-    int count = 0;
-    gc1 = (Calendar)c1.clone();
-    gc2 = (Calendar)c2.clone();
 
-           // очищаем поля, которые мы не будем учитывать при сравнении дат
-if (field==Calendar.YEAR) {
-    for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-    {
-        count++;
-    }
-}
-    if (field==Calendar.MONTH){
-
-       if (gc1.get(Calendar.MONTH)<=gc2.get(Calendar.MONTH)){
-           gc1.clear(Calendar.YEAR);
-           gc2.clear(Calendar.YEAR);
-           for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-           {
-               count++;
-           }
-    }
-        else {//(gc1.get(Calendar.MONTH)>gc2.get(Calendar.MONTH))
-            gc2.set(Calendar.YEAR,gc1.get(Calendar.YEAR)+1);
-            for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
-                count++;
-            }
-        }
-    }
-
-    if (field==Calendar.DAY_OF_MONTH){
-
-        if (gc1.get(Calendar.DAY_OF_MONTH)<=gc2.get(Calendar.DAY_OF_MONTH)){
-            gc1.clear(Calendar.MONTH);
-            gc2.clear(Calendar.MONTH);
-            gc1.clear(Calendar.YEAR);
-            gc2.clear(Calendar.YEAR);
-            for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-            {
-                count++;
-            }
-        }
-        else {
-            gc2.set(Calendar.MONTH,gc1.get(Calendar.MONTH)+1);
-            gc1.clear(Calendar.YEAR);
-            gc2.clear(Calendar.YEAR);
-            for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
-                count++;
-            }
-        }
-    }
-if (c1.compareTo(c2) >0) count=0;
-        return count;
-
-}
 
 
 
