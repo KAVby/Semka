@@ -84,7 +84,7 @@ public class MainActivity extends FragmentActivity {
 			// Получаем число из настроек
 			string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
 		else string_date ="заполните данные";
-        
+
 
 
 
