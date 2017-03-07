@@ -27,7 +27,11 @@ public class VislugaActivity extends Activity {
     Button ok;
     DatePicker datePicker;
     Calendar c1,c2,gc1,gc2;
-    public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек сохраненной даты
+    public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
+    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
+    public static final String APP_PREFERENCES_str1 = "str1";
+    public static final String APP_PREFERENCES_str2 = "str2";
+    public static final String APP_PREFERENCES_str3 = "str3";
     public static  String APP_PREFERENCES_str1_ = "str1_"; //
     private SharedPreferences mSettings;
     @Override
@@ -56,15 +60,15 @@ public void onclick11 (View v33){
     c2.set(year_now, month_now, day_now); //сегодняшняя дата
 
     SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-//    APP_PREFERENCES_str1_=sdf.format(c1);
-//    mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
-//    SharedPreferences.Editor editor = mSettings.edit();
-//    editor.putString(APP_PREFERENCES_str1_, sdf.format(c1));
-//    editor.apply();
+
+    mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
+    SharedPreferences.Editor editor = mSettings.edit();
+    editor.putString(APP_PREFERENCES_str1_, sdf.format(c1.getTime()));
+    editor.apply();
 
 
 
-    mTextDate.setText(c1+"Выслуга:\n"+"\nЛет  " +diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+    mTextDate.setText(sdf.format(c1.getTime())+"Выслуга:\n"+"\nЛет  " +diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
              }
 
 public  int diferenceDate(int field, Calendar c1, Calendar c2){

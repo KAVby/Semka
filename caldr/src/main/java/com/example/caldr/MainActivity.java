@@ -35,6 +35,7 @@ public class MainActivity extends FragmentActivity {
 	public static final String APP_PREFERENCES_str1 = "str1";
 	public static final String APP_PREFERENCES_str2 = "str2";
 	public static final String APP_PREFERENCES_str3 = "str3";// параметр, кот. сохраняем в настройках отвечает за состав смены
+	public static  String APP_PREFERENCES_str1_ = "str1_";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm;  //для выбора смены
 	String string1, string2, string3;

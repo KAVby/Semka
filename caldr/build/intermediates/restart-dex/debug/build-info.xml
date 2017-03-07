@@ -5,30 +5,30 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="13646460299419"
+    timestamp="15090582384511"
     token="-132461712159472681"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="271" />
+        duration="406" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="51" />
     <task
         name="verifier"
-        duration="3" />
+        duration="9" />
 
     <artifact
         location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="13646460299419"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="15090582384511"
+        verifier="FIELD_ADDED" >
         <artifact
             location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
             type="MAIN" />
