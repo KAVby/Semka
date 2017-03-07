@@ -69,7 +69,7 @@ public void onclick11 (View v33){
 
 
 
-    mTextDate.setText(diferenceDate(Calendar.YEAR, c1, c2) +"\n  "+diferenceDate(Calendar.MONTH, c1, c2)+"\n  "+diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+    mTextDate.setText("Выслуга:\n"+"\nЛет  " +diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
             //+" \n  "+ sdf.format(c1.getTime())+" \n  "+sdf.format(c2.getTime())+" \n  "+formatedDate+"   " +d+"   "+formatedDate2);
             //+"\n"+d1+"\n милисек"+t3+"\n год"+(year_now-year)+"\n месяц"+(month_now-month)+"\n день"+(day_now-day));
     }
@@ -103,8 +103,7 @@ if (field==Calendar.YEAR) {
             }
         }
     }
-//    gc1.clear(Calendar.MONTH);
-//    gc2.clear(Calendar.MONTH);
+
     if (field==Calendar.DAY_OF_MONTH){
 
         if (gc1.get(Calendar.DAY_OF_MONTH)<=gc2.get(Calendar.DAY_OF_MONTH)){
@@ -117,18 +116,14 @@ if (field==Calendar.YEAR) {
                 count++;
             }
         }
-        else {//(gc1.get(Calendar.MONTH)>gc2.get(Calendar.MONTH))
+        else {
             gc2.set(Calendar.MONTH,gc1.get(Calendar.MONTH)+1);
             for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
                 count++;
             }
         }
     }
-
-//    for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-//    {
-//        count++;
-//    }
+if (c1.compareTo(c2) >0) count=0;
         return count;
 
 }

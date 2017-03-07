@@ -63,10 +63,10 @@ public class MainActivity extends FragmentActivity {
 		t.commit();
 
 		mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);   //инициализирую файл настроек
-		if (mSettings.contains(APP_PREFERENCES_COUNTER)) //если параметр в файле уже создан, то берем его
+		if (mSettings.contains(APP_PREFERENCES_COUNTER)) //если параметр номер смены в файле уже создан, то берем его
 			// Получаем число из настроек
 			nsm = mSettings.getInt(APP_PREFERENCES_COUNTER, 0);
-		if (mSettings.contains(APP_PREFERENCES_str1)) //если параметр в файле уже создан, то берем его
+		if (mSettings.contains(APP_PREFERENCES_str1)) //если параметр список смены в файле уже создан, то берем его
 			// Получаем число из настроек
 			 string1 = mSettings.getString(APP_PREFERENCES_str1, "none");
 		else string1 ="Кононов \nБуланкин \nМинин \nи др. ";
