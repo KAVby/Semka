@@ -87,19 +87,30 @@ if (field==Calendar.YEAR) {
     }
 }
     if (field==Calendar.MONTH){
-            gc1.clear(Calendar.YEAR);
-            gc2.clear(Calendar.YEAR);
-       
 
+       if (gc1.get(Calendar.MONTH)<gc2.get(Calendar.MONTH)){
+           gc1.clear(Calendar.YEAR);
+           gc2.clear(Calendar.YEAR);
+           for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
+           {
+               count++;
+           }
+    }
+        else {//(gc1.get(Calendar.MONTH)>gc2.get(Calendar.MONTH))
+            gc2.set(Calendar.YEAR,gc1.get(Calendar.YEAR)+1);
+            for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
+                count++;
+            }
+        }
     }
 //    gc1.clear(Calendar.MONTH);
 //    gc2.clear(Calendar.MONTH);
 
 
-    for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-    {
-        count++;
-    }
+//    for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
+//    {
+//        count++;
+//    }
         return count;
 
 }

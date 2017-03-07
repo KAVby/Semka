@@ -5,61 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="10608770020040"
+    timestamp="4567664750950"
     token="-132461712159472681"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="256" />
+        duration="338" />
     <task
         name="instant-run-dex"
-        duration="959" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="32" />
     <task
         name="verifier"
         duration="3" />
 
     <artifact
-        location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="3218721916072"
+        timestamp="4567664750950"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="4392641849296"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\4392641849296\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="10410404763317"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\10410404763317\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="10473071427009"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\10473071427009\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="10608770020040"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
