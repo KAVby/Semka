@@ -1,5 +1,6 @@
 package com.example.caldr;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -39,6 +40,7 @@ public class MainActivity extends FragmentActivity {
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm;  //для выбора смены
 	String string1, string2, string3, string_date;
+    Calendar c1,c2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -48,6 +50,8 @@ public class MainActivity extends FragmentActivity {
 		final TextView mText3 = (TextView) findViewById(R.id.TextView1) ;
 		final TextView mText = (TextView) findViewById(R.id.textView) ;
 		final TextView mText4 = (TextView) findViewById(R.id.TextView2) ;
+        final TextView textVisluga = (TextView) findViewById(R.id.textVisluga) ;
+
 		 mText4.setMovementMethod(new ScrollingMovementMethod());
 		final CaldroidFragment caldroidFragment = new CaldroidFragment();
 		Bundle args = new Bundle();
@@ -82,8 +86,23 @@ public class MainActivity extends FragmentActivity {
 		else string3 ="Рослик \nРак \nФесенко \nХадосевич \nКурейчик \nСупронович \nВоробьева";
 		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата насала службы в файле уже создан, то берем его (дата)
 			// Получаем число из настроек
-			string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
-		else string_date ="заполните данные";
+        {
+            string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
+            SimpleDateFormat stringtodate = new SimpleDateFormat("dd-MM-yyyy");
+            Date date = new Date();
+            try {
+                date = stringtodate.parse(string_date);
+            } catch (ParseException ex) {
+                System.out.println("Это не должно произойти");
+            }
+            c1 = Calendar.getInstance();
+            c1.setTime(date);
+            c2 = Calendar.getInstance();
+            textVisluga.setText("Выслуга:\n" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+        }
+
+
+        else string_date ="08-03-2017";
 
 
 

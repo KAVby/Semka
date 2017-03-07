@@ -28,4 +28,12 @@
         android:id="@+id/ok"
         android:layout_weight="0.11"
         android:onClick="onclick11" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_weight="0.11"
+        android:onClick="onclick12" />
 </LinearLayout>

@@ -2,6 +2,7 @@ package com.example.caldr;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.format.DateUtils;
@@ -70,7 +71,11 @@ public void onclick11 (View v33){
 
     mTextDate.setText(sdf.format(c1.getTime())+"Выслуга:\n"+"\nЛет  " +DifDate.diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+DifDate.diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
              }
-
+    public void onclick12 (View v34){
+        Intent intent = new Intent(VislugaActivity.this,MainActivity.class);
+        finish();
+        startActivity(intent);
+    }
 
 
 
