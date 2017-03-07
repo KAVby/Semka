@@ -38,7 +38,7 @@ public class MainActivity extends FragmentActivity {
 	public static  String APP_PREFERENCES_str1_ = "str1_";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm;  //для выбора смены
-	String string1, string2, string3;
+	String string1, string2, string3, string_date;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -80,7 +80,11 @@ public class MainActivity extends FragmentActivity {
 			// Получаем число из настроек
 			string3 = mSettings.getString(APP_PREFERENCES_str3, "none");
 		else string3 ="Рослик \nРак \nФесенко \nХадосевич \nКурейчик \nСупронович \nВоробьева";
-
+		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата насала службы в файле уже создан, то берем его (дата)
+			// Получаем число из настроек
+			string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
+		else string_date ="заполните данные";
+        
 
 
 

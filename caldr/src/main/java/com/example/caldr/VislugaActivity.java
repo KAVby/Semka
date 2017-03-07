@@ -61,7 +61,7 @@ public void onclick11 (View v33){
 
     SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
-    mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
+    mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);//закидываем выбранную дату в файл
     SharedPreferences.Editor editor = mSettings.edit();
     editor.putString(APP_PREFERENCES_str1_, sdf.format(c1.getTime()));
     editor.apply();
@@ -115,6 +115,8 @@ if (field==Calendar.YEAR) {
         }
         else {
             gc2.set(Calendar.MONTH,gc1.get(Calendar.MONTH)+1);
+            gc1.clear(Calendar.YEAR);
+            gc2.clear(Calendar.YEAR);
             for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
                 count++;
             }
