@@ -5,106 +5,71 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="49389688263466"
+    timestamp="53887626234997"
     token="-1902058154516387836"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="80" />
+        duration="71" />
     <task
         name="instant-run-dex"
-        duration="320" />
+        duration="270" />
     <task
         name="instant-run-transform"
-        duration="8" />
+        duration="4" />
     <task
         name="verifier"
-        duration="1" />
+        duration="35" />
 
     <artifact
         location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
     <build
-        timestamp="46449556246608"
+        timestamp="53288330708507"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\workspace\StudioProjects\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="46555199481945"
+        timestamp="53350567538344"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\46555199481945\classes.dex"
+            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53350567538344\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="47144349757458"
+        timestamp="53411758193866"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47144349757458\classes.dex"
+            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53411758193866\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="47275571149841"
+        timestamp="53439088285532"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47275571149841\classes.dex"
+            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53439088285532\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="47551309125991"
+        timestamp="53465026685055"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47551309125991\classes.dex"
+            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53465026685055\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="47629350101032"
+        timestamp="53705737013939"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47629350101032\classes.dex"
+            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53705737013939\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="47711138962736"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47711138962736\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="47744951554355"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\47744951554355\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="48804399629997"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\48804399629997\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="49232474670635"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\49232474670635\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="49263951496109"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\49263951496109\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="49389688263466"
+        timestamp="53887626234997"
         verifier="COMPATIBLE" >
         <artifact
             location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"

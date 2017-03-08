@@ -37,9 +37,9 @@ public static Calendar gc1,gc2;
                 }
             }
             if (gc1.get(Calendar.MONTH)==gc2.get(Calendar.MONTH)){
-               //if (gc1.get(Calendar.DAY_OF_MONTH)>gc2.get(Calendar.DAY_OF_MONTH))
-                gc1.clear(Calendar.YEAR);
-                gc2.clear(Calendar.YEAR);
+               if (gc1.get(Calendar.DAY_OF_MONTH)<gc2.get(Calendar.DAY_OF_MONTH))
+               {gc1.clear(Calendar.YEAR);
+                gc2.clear(Calendar.YEAR);}
 
                 for (gc1.add(field, 1); gc1.compareTo(gc2) <0; gc1.add(field, 1))
                 {
