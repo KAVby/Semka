@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.DatePicker;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -26,6 +27,7 @@ public class VislugaActivity extends Activity {
     int   year, year_now;
     TextView mTextDate;
     Button ok;
+    String string_date;
     DatePicker datePicker;
     Calendar c1,c2,gc1,gc2;
     public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
@@ -42,9 +44,33 @@ public class VislugaActivity extends Activity {
         ok = (Button) findViewById(R.id.ok);
         mTextDate = (TextView) findViewById(R.id.textViewDate);
         datePicker = (DatePicker)findViewById(R.id.datePicker);
-    day_now= datePicker.getDayOfMonth();
-    month_now= datePicker.getMonth();
-    year_now = datePicker.getYear();
+//    day_now= datePicker.getDayOfMonth();
+//    month_now= datePicker.getMonth();
+//    year_now = datePicker.getYear();
+
+        mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
+        if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+        // Получаем число из настроек
+        {
+            string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
+            SimpleDateFormat stringtodate = new SimpleDateFormat("dd-MM-yyyy");
+            Date date = new Date();
+            try {
+                date = stringtodate.parse(string_date);
+            } catch (ParseException ex) {
+                System.out.println("Это не должно произойти");
+            }
+            c1 = Calendar.getInstance();
+            c1.setTime(date);
+
+//            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+            datePicker.updateDate(c1.get(Calendar.YEAR),c1.get(Calendar.MONTH), c1.get(Calendar.DAY_OF_MONTH));
+        }
+
+
+        //else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
+
+
     }
 
 
@@ -58,7 +84,7 @@ public void onclick11 (View v33){
     c1= Calendar.getInstance();
     c2= Calendar.getInstance();
     c1.set(year,month,day); //дата которую выбрали
-    c2.set(year_now, month_now, day_now); //сегодняшняя дата
+//    c2.set(Calendar.YEAR, Calendar.MONTH, Calendar.DAY_OF_MONTH); //сегодняшняя дата
 
     SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -69,7 +95,7 @@ public void onclick11 (View v33){
 
 
 
-    mTextDate.setText(sdf.format(c1.getTime())+"Выслуга:\n"+"\nЛет  " +DifDate.diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+DifDate.diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+    mTextDate.setText(sdf.format(c1.getTime())+"\nВыслуга:"+"\nЛет  " +DifDate.diferenceDate(Calendar.YEAR, c1, c2) +"\nМесяцев  "+DifDate.diferenceDate(Calendar.MONTH, c1, c2)+"\nДней  "+DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
              }
     public void onclick12 (View v34){
         Intent intent = new Intent(VislugaActivity.this,MainActivity.class);

@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:orientation="vertical"
-    android:id="@+id/vislugalay">
+    android:id="@+id/vislugalay"
+    android:orientation="vertical">
+
+    <Button
+        android:text="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:onClick="onclick11"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp" />
+
+    <Button
+        android:text="Назад"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_weight="0.11"
+        android:onClick="onclick12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:id="@+id/datePicker"
+        android:calendarViewShown="false"
+        android:visibility="visible"
+        style="@android:style/Widget.Holo.DatePicker"
+        android:layout_above="@+id/ok"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="C какой даты служим"
         android:layout_width="194dp"
         android:layout_height="wrap_content"
         android:id="@+id/textViewDate"
-        android:layout_weight="0.11" />
-
-    <DatePicker
-        android:layout_width="wrap_content"
-        android:layout_height="147dp"
-        android:id="@+id/datePicker"
-        android:calendarViewShown="false"
-        android:visibility="visible"
-        style="@android:style/Widget.Holo.DatePicker" />
-
-    <Button
-        android:text="ok"
-        android:layout_width="383dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/ok"
         android:layout_weight="0.11"
-        android:onClick="onclick11" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/back"
-        android:layout_weight="0.11"
-        android:onClick="onclick12" />
-</LinearLayout>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

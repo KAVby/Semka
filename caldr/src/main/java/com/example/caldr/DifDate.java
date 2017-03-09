@@ -22,7 +22,12 @@ public static Calendar gc1,gc2;
             }
         }
         if (field==Calendar.MONTH){
-
+            if (gc1.get(Calendar.MONTH)>gc2.get(Calendar.MONTH)){
+                gc2.set(Calendar.YEAR,gc1.get(Calendar.YEAR)+1);
+                for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
+                    count++;
+                }
+            }
             if (gc1.get(Calendar.MONTH)<gc2.get(Calendar.MONTH)){
                 gc1.clear(Calendar.YEAR);
                 gc2.clear(Calendar.YEAR);
@@ -31,12 +36,17 @@ public static Calendar gc1,gc2;
                     count++;
                 }
             }
-            else {//(gc1.get(Calendar.MONTH)>=gc2.get(Calendar.MONTH))
-                gc2.set(Calendar.YEAR,gc1.get(Calendar.YEAR)+1);
-                for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
+            if (gc1.get(Calendar.MONTH)==gc2.get(Calendar.MONTH)){
+               if (gc1.get(Calendar.DAY_OF_MONTH)<gc2.get(Calendar.DAY_OF_MONTH))
+               {gc1.clear(Calendar.YEAR);
+                gc2.clear(Calendar.YEAR);}
+
+                for (gc1.add(field, 1); gc1.compareTo(gc2) <0; gc1.add(field, 1))
+                {
                     count++;
                 }
             }
+
         }
 
         if (field==Calendar.DAY_OF_MONTH){
@@ -53,6 +63,8 @@ public static Calendar gc1,gc2;
             }
             else {
                 gc2.set(Calendar.MONTH,gc1.get(Calendar.MONTH)+1);
+//                gc1.clear(Calendar.MONTH);
+//                gc2.clear(Calendar.MONTH);
                 gc1.clear(Calendar.YEAR);
                 gc2.clear(Calendar.YEAR);
                 for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {

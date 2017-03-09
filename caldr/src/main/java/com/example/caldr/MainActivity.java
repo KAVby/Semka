@@ -84,7 +84,8 @@ public class MainActivity extends FragmentActivity {
 			// Получаем число из настроек
 			string3 = mSettings.getString(APP_PREFERENCES_str3, "none");
 		else string3 ="Рослик \nРак \nФесенко \nХадосевич \nКурейчик \nСупронович \nВоробьева";
-		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата насала службы в файле уже создан, то берем его (дата)
+
+		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
 			// Получаем число из настроек
         {
             string_date = mSettings.getString(APP_PREFERENCES_str1_, "none");
@@ -98,11 +99,11 @@ public class MainActivity extends FragmentActivity {
             c1 = Calendar.getInstance();
             c1.setTime(date);
             c2 = Calendar.getInstance();
-            textVisluga.setText("Выслуга:\n" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
         }
 
 
-        else string_date ="08-03-2017";
+        else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
 
 
 

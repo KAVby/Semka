@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Thu Mar 09 12:43:40 EET 2017
 base.0=C\:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+=======
+#Wed Mar 08 23:59:42 GMT+03:00 2017
+base.0=D\:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+>>>>>>> 6cebcc9d61ecddeed3ec2e06ce4ab3f2e97e15db
 renamed.0=classes.dex
-file.0=C\:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=D\:\\workspace\\StudioProjects\\caldr1\\caldr\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
