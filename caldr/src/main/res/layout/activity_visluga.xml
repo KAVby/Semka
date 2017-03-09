@@ -28,21 +28,100 @@
         android:layout_alignParentStart="true" />
 
     <DatePicker
-        android:layout_width="match_parent"
-        android:layout_height="147dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/datePicker"
         android:calendarViewShown="false"
         android:visibility="visible"
         style="@android:style/Widget.Holo.DatePicker"
-        android:layout_above="@+id/ok"
-        android:layout_centerHorizontal="true" />
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginRight="-40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp" />
 
     <TextView
-        android:text="C какой даты служим"
-        android:layout_width="194dp"
-        android:layout_height="wrap_content"
+        android:text="Выслуга"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/textViewDate"
-        android:layout_weight="0.11"
+        android:layout_below="@+id/datePicker"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Добавить к выслуге (учеба, служба в армии и т.п.)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:text="C какой даты служим в МЧС:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextY"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:text="0" />
+
+    <EditText
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextD"
+        android:layout_below="@+id/editTextM"
+        android:layout_alignParentEnd="true"
+        android:text="0" />
+
+    <EditText
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextM"
+        android:layout_below="@+id/editTextY"
+        android:layout_alignParentEnd="true"
+        android:text="0" />
+
+    <TextView
+        android:text="Лет"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignBaseline="@+id/editTextY"
+        android:layout_alignBottom="@+id/editTextY"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:text="Месяцев"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_alignBaseline="@+id/editTextM"
+        android:layout_alignBottom="@+id/editTextM"
+        android:layout_toStartOf="@+id/editTextM" />
+
+    <TextView
+        android:text="Дней"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/editTextD"
+        android:layout_alignBottom="@+id/editTextD"
+        android:layout_alignStart="@+id/textView7" />
+
 </RelativeLayout>

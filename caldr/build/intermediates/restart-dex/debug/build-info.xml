@@ -5,82 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="23981997408203"
+    timestamp="31434202881231"
     token="-132461712159472681"
-    verifier="COMPATIBLE" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="247" />
+        duration="386" />
     <task
         name="instant-run-dex"
-        duration="586" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="22" />
     <task
         name="verifier"
-        duration="3" />
+        duration="4" />
 
     <artifact
-        location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="20225539239962"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="31434202881231"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="21288095957146"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\21288095957146\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="22785918850184"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\22785918850184\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23371764767280"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\23371764767280\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23422488143469"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\23422488143469\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23489569295516"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\23489569295516\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23835608274648"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\23835608274648\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23981997408203"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
