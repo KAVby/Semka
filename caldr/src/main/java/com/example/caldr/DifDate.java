@@ -13,15 +13,32 @@ public static Calendar gc1,gc2;
         int count = 0;
         gc1 = (Calendar)c1.clone();
         gc2 = (Calendar)c2.clone();
-
+        int test;
         // очищаем поля, которые мы не будем учитывать при сравнении дат
         if (field==Calendar.YEAR) {
-            for (gc1.add(field, 1); gc1.compareTo(gc2) <=0; gc1.add(field, 1))
-            {
+            //           gc2.set(Calendar.DAY_OF_MONTH,gc1.get(Calendar.DAY_OF_MONTH)-1);
+//            for (gc1.add(field, 1);
+//                 gc1.compareTo(gc2) <0;
+//                 gc1.add(field, 1))
+//            {test=gc1.compareTo(gc2);
+//                count++;
+//            }
+
+            gc1.add(field, 1);
+            while (gc1.compareTo(gc2) <=0) {
+                gc1.add(field, 1);
                 count++;
             }
         }
         if (field==Calendar.MONTH){
+            if (gc1.get(Calendar.MONTH)==gc2.get(Calendar.MONTH)){
+                if (gc1.get(Calendar.DAY_OF_MONTH)<gc2.get(Calendar.DAY_OF_MONTH))
+                    count=0;
+                if (gc1.get(Calendar.DAY_OF_MONTH)==gc2.get(Calendar.DAY_OF_MONTH))
+                    count=0;
+                if (gc1.get(Calendar.DAY_OF_MONTH)>gc2.get(Calendar.DAY_OF_MONTH))
+                    count=11;
+            }
             if (gc1.get(Calendar.MONTH)>gc2.get(Calendar.MONTH)){
                 gc2.set(Calendar.YEAR,gc1.get(Calendar.YEAR)+1);
                 for (gc1.add(field, 1); gc1.compareTo(gc2) <= 0; gc1.add(field, 1)) {
@@ -36,13 +53,7 @@ public static Calendar gc1,gc2;
                     count++;
                 }
             }
-            if (gc1.get(Calendar.MONTH)==gc2.get(Calendar.MONTH)){
-              if (gc1.get(Calendar.DAY_OF_MONTH)<=gc2.get(Calendar.DAY_OF_MONTH))
 
-                count=0;
-else
-                 count=11;
-            }
 
         }
 
