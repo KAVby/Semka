@@ -12,117 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24aa5497-2748-40e5-8002-cdb1a335b9a5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/36594094646900/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/36633669714351/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/37087539544425/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/37270842712664/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/40137890204309/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/40467386969100/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/43200418904747/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/43458135451052/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/46555199481945/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47144349757458/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47275571149841/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47551309125991/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47629350101032/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47711138962736/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/47744951554355/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/48804399629997/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/49232474670635/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/49263951496109/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/49389688263466/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/50435819737893/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53350567538344/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53411758193866/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53439088285532/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53465026685055/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53705737013939/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/zip-cache/9JkU3xG9SbvlnUhaQi7YmltNCLE=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/9JkU3xG9SbvlnUhaQi7YmltNCLE=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/date4j_bf8107e4c99ca058adfe47f3f17fd826a5f884f7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_dc38dc2c62e994408259689f4908e900796ec0cc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run_ae1fc52ac8732841519c59877d5b235258ff9ba8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_14294e94d0c4006d7355c2f53e6435739ee605ab.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/antonyt/infiniteviewpager/InfinitePagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/antonyt/infiniteviewpager/InfiniteViewPager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/caldroid/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment$DatePageChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidGridAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CaldroidListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/CalendarHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/DateGridFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/MonthPagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/SquareTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1701148800/com/roomorama/caldroid/WeekdayArrayAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/caldr/VislugaActivity$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/caldr/DifDate$override.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/DifDate.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/DifDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/DifDate.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/DifDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.dex" afterPath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/reload-dex/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/DifDate.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/DifDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/caldr/DifDate$override.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/caldr/DifDate$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" afterPath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" afterPath="$PROJECT_DIR$/caldr/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,8 +140,8 @@
       <file leaf-file-name="DifDate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -2966,7 +2877,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39693356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39693356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29642248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3004,7 +2915,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3437,8 +3362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding />
         </state>
       </provider>
