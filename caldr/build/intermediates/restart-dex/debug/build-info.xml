@@ -1,99 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86"
     api-level="19"
-    density="hdpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-<<<<<<< HEAD
-    timestamp="469927106626"
+    timestamp="3531200023918"
     token="-132461712159472681"
-    verifier="FULL_BUILD_REQUESTED" >
-
-    <task
-        name="javac"
-        duration="6682" />
-=======
-    timestamp="53887626234997"
-    token="-1902058154516387836"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="71" />
->>>>>>> 6cebcc9d61ecddeed3ec2e06ce4ab3f2e97e15db
+        duration="397" />
     <task
         name="instant-run-dex"
-        duration="270" />
+        duration="583" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-        duration="1826" />
+        duration="18" />
     <task
         name="verifier"
-        duration="127" />
-=======
-        duration="4" />
-    <task
-        name="verifier"
-        duration="35" />
->>>>>>> 6cebcc9d61ecddeed3ec2e06ce4ab3f2e97e15db
+        duration="3" />
 
     <artifact
-        location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
+        location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
     <build
-<<<<<<< HEAD
-        timestamp="469927106626"
-=======
-        timestamp="53288330708507"
->>>>>>> 6cebcc9d61ecddeed3ec2e06ce4ab3f2e97e15db
+        timestamp="944722557774"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
+            location="C:\Android\workspace2\caldr1\caldr\build\outputs\apk\caldr-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="53350567538344"
+        timestamp="1910648884809"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53350567538344\classes.dex"
+            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\1910648884809\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="53411758193866"
+        timestamp="2685488603549"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53411758193866\classes.dex"
+            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\2685488603549\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="53439088285532"
+        timestamp="3017263779961"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53439088285532\classes.dex"
+            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\builds\debug\3017263779961\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="53465026685055"
+        timestamp="3531200023918"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53465026685055\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="53705737013939"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\builds\debug\53705737013939\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="53887626234997"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\workspace\StudioProjects\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
+            location="C:\Android\workspace2\caldr1\caldr\build\intermediates\reload-dex\debug\classes.dex"
             type="RELOAD_DEX" />
     </build>
 

@@ -39,12 +39,20 @@ public static Calendar gc1,gc2;
             if (gc1.get(Calendar.MONTH)==gc2.get(Calendar.MONTH)){
                if (gc1.get(Calendar.DAY_OF_MONTH)<gc2.get(Calendar.DAY_OF_MONTH))
                {gc1.clear(Calendar.YEAR);
-                gc2.clear(Calendar.YEAR);}
-
+                gc2.clear(Calendar.YEAR);
+                gc2.set(Calendar.MONTH,gc1.get(Calendar.MONTH)+1);
                 for (gc1.add(field, 1); gc1.compareTo(gc2) <0; gc1.add(field, 1))
                 {
                     count++;
-                }
+                }count=count-1;}
+             else
+                    {gc1.clear(Calendar.YEAR);
+                        gc2.clear(Calendar.YEAR);
+
+                        for (gc1.add(field, 1); gc1.compareTo(gc2) <0; gc1.add(field, 1))
+                        {
+                            count++;
+                        }}
             }
 
         }

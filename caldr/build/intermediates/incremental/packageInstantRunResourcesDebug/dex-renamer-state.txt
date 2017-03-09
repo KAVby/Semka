@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-#Thu Mar 09 12:43:16 EET 2017
-=======
-#Wed Mar 08 23:28:12 GMT+03:00 2017
->>>>>>> 6cebcc9d61ecddeed3ec2e06ce4ab3f2e97e15db
+#Thu Mar 09 12:51:03 EET 2017
