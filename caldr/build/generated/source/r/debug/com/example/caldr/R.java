@@ -44,12 +44,13 @@ public final class R {
         public static final int TextView2=0x7f0a0004;
         public static final int back=0x7f0a0011;
         public static final int calendar1=0x7f0a0000;
-        public static final int calendar_gridview=0x7f0a0023;
-        public static final int calendar_left_arrow=0x7f0a001d;
-        public static final int calendar_month_year_textview=0x7f0a001e;
-        public static final int calendar_right_arrow=0x7f0a001f;
-        public static final int calendar_title_view=0x7f0a001c;
-        public static final int calendar_tv=0x7f0a0022;
+        public static final int calendar_gridview=0x7f0a0024;
+        public static final int calendar_left_arrow=0x7f0a001e;
+        public static final int calendar_month_year_textview=0x7f0a001f;
+        public static final int calendar_right_arrow=0x7f0a0020;
+        public static final int calendar_title_view=0x7f0a001d;
+        public static final int calendar_tv=0x7f0a0023;
+        public static final int checkBox=0x7f0a001c;
         public static final int datePicker=0x7f0a0012;
         public static final int editText1=0x7f0a0009;
         public static final int editText2=0x7f0a000a;
@@ -57,14 +58,14 @@ public final class R {
         public static final int editTextD=0x7f0a0018;
         public static final int editTextM=0x7f0a0019;
         public static final int editTextY=0x7f0a0017;
-        public static final int exit=0x7f0a0029;
+        public static final int exit=0x7f0a002a;
         public static final int horizontalScrollView1=0x7f0a0003;
-        public static final int months_infinite_pager=0x7f0a0021;
+        public static final int months_infinite_pager=0x7f0a0022;
         public static final int ok=0x7f0a0010;
-        public static final int smena1=0x7f0a0024;
-        public static final int smena2=0x7f0a0025;
-        public static final int smena3=0x7f0a0026;
-        public static final int sostav=0x7f0a0027;
+        public static final int smena1=0x7f0a0025;
+        public static final int smena2=0x7f0a0026;
+        public static final int smena3=0x7f0a0027;
+        public static final int sostav=0x7f0a0028;
         public static final int textView=0x7f0a0005;
         public static final int textView1=0x7f0a0008;
         public static final int textView2=0x7f0a0007;
@@ -76,9 +77,9 @@ public final class R {
         public static final int textView8=0x7f0a001b;
         public static final int textViewDate=0x7f0a0013;
         public static final int textVisluga=0x7f0a0006;
-        public static final int visluga=0x7f0a0028;
+        public static final int visluga=0x7f0a0029;
         public static final int vislugalay=0x7f0a000f;
-        public static final int weekday_gridview=0x7f0a0020;
+        public static final int weekday_gridview=0x7f0a0021;
     }
     public static final class layout {
         public static final int activity_main=0x7f040000;

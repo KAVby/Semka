@@ -41,9 +41,10 @@ public class MainActivity extends FragmentActivity {
 	public static  String APP_PREFERENCES_str1_y = "str1_Y";
 	public static  String APP_PREFERENCES_str1_m = "str1_M";
 	public static  String APP_PREFERENCES_str1_d = "str1_D";
+    public static  String APP_PREFERENCES_str1_yotno = "yotno";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm;  //для выбора смены
-	String string1, string2, string3, string_date, sY, sM, sD;
+	String string1, string2, string3, string_date, sY, sM, sD, yotno;
     Calendar c1,c2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +84,7 @@ public class MainActivity extends FragmentActivity {
 			// Получаем число из настроек
 			string2 = mSettings.getString(APP_PREFERENCES_str2, "none");
 		else string2 ="Шибеко \nМинец \nТочилов \nСойко";
-		if (mSettings.contains(APP_PREFERENCES_str1)) //если параметр в файле уже создан, то берем его
+		if (mSettings.contains(APP_PREFERENCES_str3)) //если параметр в файле уже создан, то берем его
 			// Получаем число из настроек
 			string3 = mSettings.getString(APP_PREFERENCES_str3, "none");
 		else string3 ="Рослик \nРак \nФесенко \nХадосевич \nКурейчик \nСупронович \nВоробьева";
@@ -111,12 +112,13 @@ public class MainActivity extends FragmentActivity {
             c1 = Calendar.getInstance();
             c1.setTime(date);
             c2 = Calendar.getInstance();
-            textVisluga.setText("Выслуга: " + "Лет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + "  Месяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + "  Дней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD));
+            textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD)+";");
         }
-
-
-        else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
-
+         else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
+        if (mSettings.contains(APP_PREFERENCES_str1_yotno)) {
+           yotno = mSettings.getString(APP_PREFERENCES_str1_yotno, "none");
+            if (yotno=="no") textVisluga.setVisibility(View.INVISIBLE);
+        }
 
 
 

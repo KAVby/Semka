@@ -124,4 +124,15 @@
         android:layout_alignBottom="@+id/editTextD"
         android:layout_alignStart="@+id/textView7" />
 
+    <CheckBox
+        android:text="Показывать в основном окне"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datePicker"
+        android:layout_toEndOf="@+id/datePicker"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/checkBox"
+        android:checked="true" />
+
 </RelativeLayout>

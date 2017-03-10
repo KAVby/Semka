@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.format.DateUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.DatePicker;
@@ -28,23 +29,26 @@ public class VislugaActivity extends Activity {
     int   year, year_now;
     TextView mTextDate;
     Button ok;
-    String string_date,sY,sM,sD;
+    String string_date,sY,sM,sD, yotno;
     DatePicker datePicker;
     Calendar c1,c2,gc1,gc2;
     EditText editTextY;
     EditText editTextM;
     EditText editTextD;
+    CheckBox checkBox;
+    Boolean YorNo;
 
 
     public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
-//    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
-//    public static final String APP_PREFERENCES_str1 = "str1";
-//    public static final String APP_PREFERENCES_str2 = "str2";
-//    public static final String APP_PREFERENCES_str3 = "str3";
-    public static  String APP_PREFERENCES_str1_ = "str1_";
+    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
+    public static final String APP_PREFERENCES_str1 = "str1";
+    public static final String APP_PREFERENCES_str2 = "str2";
+    public static final String APP_PREFERENCES_str3 = "str3";// параметр, кот. сохраняем в настройках отвечает за состав смены
+    public static  String APP_PREFERENCES_str1_ = "str1_"; //дата
     public static  String APP_PREFERENCES_str1_y = "str1_Y";
     public static  String APP_PREFERENCES_str1_m = "str1_M";
     public static  String APP_PREFERENCES_str1_d = "str1_D";
+    public static  String APP_PREFERENCES_str1_yotno = "yotno";
     private SharedPreferences mSettings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +60,7 @@ public class VislugaActivity extends Activity {
         editTextM = (EditText) findViewById(R.id.editTextM);
         editTextD = (EditText) findViewById(R.id.editTextD);
         datePicker = (DatePicker)findViewById(R.id.datePicker);
+        checkBox = (CheckBox)findViewById(R.id.checkBox);
 //    day_now= datePicker.getDayOfMonth();
 //    month_now= datePicker.getMonth();
 //    year_now = datePicker.getYear();
@@ -93,6 +98,11 @@ public class VislugaActivity extends Activity {
             sD = mSettings.getString(APP_PREFERENCES_str1_d,"none");
             editTextD.setText(sD);
         }else  editTextD.setText("0");
+        if (mSettings.contains(APP_PREFERENCES_str1_yotno))
+        {
+            yotno = mSettings.getString(APP_PREFERENCES_str1_yotno,"none");
+            if (yotno=="yes") checkBox.setChecked(true);else  checkBox.setChecked(false);
+        }
 
         //else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
 
@@ -106,6 +116,8 @@ public void onclick11 (View v33){
         year = datePicker.getYear();
 
 
+    if (checkBox.isChecked()) yotno="yes";// для записи состояния в файл
+    else yotno="no";
 
 //    sY=Integer.parseInt(editTextY.getText().toString());
 //    sM=Integer.parseInt(editTextM.getText().toString());
@@ -145,6 +157,7 @@ public void onclick11 (View v33){
     editor.putString(APP_PREFERENCES_str1_y, sY);
     editor.putString(APP_PREFERENCES_str1_m, sM);
     editor.putString(APP_PREFERENCES_str1_d, sD);
+    editor.putString(APP_PREFERENCES_str1_yotno, yotno);
     editor.apply();
 gc1=(Calendar)c1.clone();
     gc2=(Calendar)c2.clone();

@@ -17,14 +17,15 @@ import android.widget.EditText;
 public class SettingsActivity extends Activity {
 
     public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
-    public static final String APP_PREFERENCES_str1 = "str1"; //
+    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
+    public static final String APP_PREFERENCES_str1 = "str1";
     public static final String APP_PREFERENCES_str2 = "str2";
-    public static final String APP_PREFERENCES_str3 = "str3";
-    public static final String APP_PREFERENCES_COUNTER = "counter";
-    public static  String APP_PREFERENCES_str1_ = "str1_";
+    public static final String APP_PREFERENCES_str3 = "str3";// параметр, кот. сохраняем в настройках отвечает за состав смены
+    public static  String APP_PREFERENCES_str1_ = "str1_"; //дата
     public static  String APP_PREFERENCES_str1_y = "str1_Y";
     public static  String APP_PREFERENCES_str1_m = "str1_M";
     public static  String APP_PREFERENCES_str1_d = "str1_D";
+    public static  String APP_PREFERENCES_str1_yotno = "yotno";
     private SharedPreferences mSettings;
 
     EditText sm_1;
