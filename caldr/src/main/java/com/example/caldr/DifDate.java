@@ -9,10 +9,11 @@ import java.util.Calendar;
 public class DifDate {
 
 public static Calendar gc1,gc2;
-    public static int diferenceDate(int field, Calendar c1, Calendar c2){
+    public static int diferenceDate(int field, Calendar c1, Calendar c2, String sY, String sM, String sD){
         int count = 0;
         gc1 = (Calendar)c1.clone();
         gc2 = (Calendar)c2.clone();
+        gc1.set(gc1.get(Calendar.YEAR)-Integer.parseInt(sY),gc1.get(Calendar.MONTH)-Integer.parseInt(sM),gc1.get(Calendar.DAY_OF_MONTH)-Integer.parseInt(sD));
         int test;
         // очищаем поля, которые мы не будем учитывать при сравнении дат
         if (field==Calendar.YEAR) {

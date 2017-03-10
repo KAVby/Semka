@@ -22,6 +22,9 @@ public class SettingsActivity extends Activity {
     public static final String APP_PREFERENCES_str3 = "str3";
     public static final String APP_PREFERENCES_COUNTER = "counter";
     public static  String APP_PREFERENCES_str1_ = "str1_";
+    public static  String APP_PREFERENCES_str1_y = "str1_Y";
+    public static  String APP_PREFERENCES_str1_m = "str1_M";
+    public static  String APP_PREFERENCES_str1_d = "str1_D";
     private SharedPreferences mSettings;
 
     EditText sm_1;

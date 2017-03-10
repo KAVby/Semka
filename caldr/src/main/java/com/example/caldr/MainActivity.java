@@ -37,9 +37,12 @@ public class MainActivity extends FragmentActivity {
 	public static final String APP_PREFERENCES_str2 = "str2";
 	public static final String APP_PREFERENCES_str3 = "str3";// параметр, кот. сохраняем в настройках отвечает за состав смены
 	public static  String APP_PREFERENCES_str1_ = "str1_"; //дата
+	public static  String APP_PREFERENCES_str1_y = "str1_Y";
+	public static  String APP_PREFERENCES_str1_m = "str1_M";
+	public static  String APP_PREFERENCES_str1_d = "str1_D";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm;  //для выбора смены
-	String string1, string2, string3, string_date;
+	String string1, string2, string3, string_date, sY, sM, sD;
     Calendar c1,c2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +88,15 @@ public class MainActivity extends FragmentActivity {
 			string3 = mSettings.getString(APP_PREFERENCES_str3, "none");
 		else string3 ="Рослик \nРак \nФесенко \nХадосевич \nКурейчик \nСупронович \nВоробьева";
 
+		if (mSettings.contains(APP_PREFERENCES_str1_y)) {
+			sY = mSettings.getString(APP_PREFERENCES_str1_y, "none");
+		} else sY="0";
+		if (mSettings.contains(APP_PREFERENCES_str1_m)) {
+			sM = mSettings.getString(APP_PREFERENCES_str1_m, "none");
+		} else sM="0";
+		if (mSettings.contains(APP_PREFERENCES_str1_d)) {
+			sD = mSettings.getString(APP_PREFERENCES_str1_d, "none");
+		} else sD="0";
 		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
 			// Получаем число из настроек
         {
@@ -99,7 +111,7 @@ public class MainActivity extends FragmentActivity {
             c1 = Calendar.getInstance();
             c1.setTime(date);
             c2 = Calendar.getInstance();
-            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
+            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD));
         }
 
 

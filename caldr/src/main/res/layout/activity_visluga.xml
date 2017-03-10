@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <Button
-        android:text="ok"
+        android:text="Рассчитать"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ok"
