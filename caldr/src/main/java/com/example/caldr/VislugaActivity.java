@@ -26,10 +26,10 @@ import java.util.Date;
 public class VislugaActivity extends Activity {
     int   day, day_now;
     int   month, month_now;
-    int   year, year_now;
+    int   year, year_now,yotno;
     TextView mTextDate;
     Button ok;
-    String string_date,sY,sM,sD, yotno;
+    String string_date,sY,sM,sD;
     DatePicker datePicker;
     Calendar c1,c2,gc1,gc2;
     EditText editTextY;
@@ -100,8 +100,8 @@ public class VislugaActivity extends Activity {
         }else  editTextD.setText("0");
         if (mSettings.contains(APP_PREFERENCES_str1_yotno))
         {
-            yotno = mSettings.getString(APP_PREFERENCES_str1_yotno,"none");
-            if (yotno=="yes") checkBox.setChecked(true);else  checkBox.setChecked(false);
+            yotno = mSettings.getInt(APP_PREFERENCES_str1_yotno,0);
+            if (yotno==1) checkBox.setChecked(true);else  checkBox.setChecked(false);
         }
 
         //else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
@@ -116,8 +116,8 @@ public void onclick11 (View v33){
         year = datePicker.getYear();
 
 
-    if (checkBox.isChecked()) yotno="yes";// для записи состояния в файл
-    else yotno="no";
+    if (checkBox.isChecked()) yotno=1;// для записи состояния в файл
+    else yotno=2;
 
 //    sY=Integer.parseInt(editTextY.getText().toString());
 //    sM=Integer.parseInt(editTextM.getText().toString());
@@ -157,7 +157,7 @@ public void onclick11 (View v33){
     editor.putString(APP_PREFERENCES_str1_y, sY);
     editor.putString(APP_PREFERENCES_str1_m, sM);
     editor.putString(APP_PREFERENCES_str1_d, sD);
-    editor.putString(APP_PREFERENCES_str1_yotno, yotno);
+    editor.putInt(APP_PREFERENCES_str1_yotno, yotno);
     editor.apply();
 gc1=(Calendar)c1.clone();
     gc2=(Calendar)c2.clone();

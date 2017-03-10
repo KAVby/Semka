@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <Button
-        android:text="Рассчитать"
+        android:text="Рассчитать и запомнить"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ok"
@@ -125,7 +125,7 @@
         android:layout_alignStart="@+id/textView7" />
 
     <CheckBox
-        android:text="Показывать в основном окне"
+        android:text="Отображать в основном окне"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/datePicker"
@@ -133,6 +133,6 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="61dp"
         android:id="@+id/checkBox"
-        android:checked="true" />
+        android:checked="false" />
 
 </RelativeLayout>

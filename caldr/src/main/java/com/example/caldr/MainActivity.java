@@ -43,8 +43,8 @@ public class MainActivity extends FragmentActivity {
 	public static  String APP_PREFERENCES_str1_d = "str1_D";
     public static  String APP_PREFERENCES_str1_yotno = "yotno";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
-	int nsm;  //для выбора смены
-	String string1, string2, string3, string_date, sY, sM, sD, yotno;
+	int nsm, yotno;  //для выбора смены
+	String string1, string2, string3, string_date, sY, sM, sD;
     Calendar c1,c2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -114,10 +114,12 @@ public class MainActivity extends FragmentActivity {
             c2 = Calendar.getInstance();
             textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD)+";");
         }
-         else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
+         else {string_date ="08-03-2017"; textVisluga.setText("Заполните в настр. даты для расч. выслуги");}
         if (mSettings.contains(APP_PREFERENCES_str1_yotno)) {
-           yotno = mSettings.getString(APP_PREFERENCES_str1_yotno, "none");
-            if (yotno=="no") textVisluga.setVisibility(View.INVISIBLE);
+           yotno = mSettings.getInt(APP_PREFERENCES_str1_yotno, 0);
+            if (yotno==2)
+                textVisluga.setVisibility(View.INVISIBLE);
+            else textVisluga.setVisibility(View.VISIBLE);
         }
 
 

@@ -17,67 +17,49 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/caldroid/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/caldroid/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$layout.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$menu.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$mipmap.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$string.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$style.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/SettingsActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/SettingsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/VislugaActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/caldroid/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/caldroid/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$layout.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$menu.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$mipmap.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$string.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$style.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/SettingsActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/SettingsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/VislugaActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/caldroid/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/caldroid/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$id.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$layout.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$menu.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$mipmap.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$string.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$style.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/SettingsActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/SettingsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/VislugaActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" afterPath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/generated/source/r/debug/com/caldroid/R.java" afterPath="$PROJECT_DIR$/caldr/build/generated/source/r/debug/com/caldroid/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/generated/source/r/debug/com/example/caldr/R.java" afterPath="$PROJECT_DIR$/caldr/build/generated/source/r/debug/com/example/caldr/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/generated/source/buildConfig/debug/com/example/caldr/BuildConfig.java" afterPath="$PROJECT_DIR$/caldr/build/generated/source/buildConfig/debug/com/example/caldr/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_visluga.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_visluga.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" afterPath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" />
     </list>
     <ignored path="Android.iws" />
@@ -124,20 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="43" column="63" selection-start-line="34" selection-start-column="5" selection-end-line="43" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="215">
               <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
               <folding />
             </state>
@@ -160,20 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VislugaActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VislugaActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_visluga.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_visluga.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="1173">
+            <state relative-caret-position="986">
               <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
               <folding />
             </state>
@@ -186,8 +158,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -201,6 +173,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-317">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2528,12 +2510,12 @@
         <option value="$PROJECT_DIR$/caldr/src/main/res/menu/menu_main.xml" />
         <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java" />
         <option value="$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/caldr/src/main/res/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" />
-        <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
         <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" />
+        <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
+        <option value="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" />
       </list>
     </option>
   </component>
@@ -3061,30 +3043,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>126</line>
-          <properties />
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
           <line>159</line>
           <properties />
           <option name="timeStamp" value="150" />
@@ -3113,8 +3071,32 @@
           <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="157" />
+      <option name="time" value="161" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3459,10 +3441,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -3484,58 +3485,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="43" column="63" selection-start-line="34" selection-start-column="5" selection-end-line="43" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="99">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
