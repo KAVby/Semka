@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1e8933084849f03a48a7d29abc997da05c17dc30">
+        sha1="a3d530ae41dc75942773ead0b92db56f37c63d2f">
         <dex dex="C:\Android\workspace2\caldr1\caldr\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="36997e5cc64384d1489f9138a620909166e41e1e">
+        sha1="7853e5654538903163307579414aea2a4077e994">
         <dex dex="C:\Android\workspace2\caldr1\caldr\build\intermediates\pre-dexed\debug\instant-run_6ec3a03267abb84356d854d153dbec26b1ad59b8.jar" />
     </item>
     <item

@@ -37,10 +37,10 @@ public class VislugaActivity extends Activity {
 
 
     public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
-    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
-    public static final String APP_PREFERENCES_str1 = "str1";
-    public static final String APP_PREFERENCES_str2 = "str2";
-    public static final String APP_PREFERENCES_str3 = "str3";
+//    public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
+//    public static final String APP_PREFERENCES_str1 = "str1";
+//    public static final String APP_PREFERENCES_str2 = "str2";
+//    public static final String APP_PREFERENCES_str3 = "str3";
     public static  String APP_PREFERENCES_str1_ = "str1_";
     public static  String APP_PREFERENCES_str1_y = "str1_Y";
     public static  String APP_PREFERENCES_str1_m = "str1_M";
@@ -77,22 +77,22 @@ public class VislugaActivity extends Activity {
 
 //            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2));
             datePicker.updateDate(c1.get(Calendar.YEAR),c1.get(Calendar.MONTH), c1.get(Calendar.DAY_OF_MONTH));
-        }
+        }else      c1 = Calendar.getInstance();
         if (mSettings.contains(APP_PREFERENCES_str1_y))
         {
             sY = mSettings.getString(APP_PREFERENCES_str1_y, "none");
             editTextY.setText(sY);
-        } else  editTextY.setText(0);
+        } else  editTextY.setText("0");
         if (mSettings.contains(APP_PREFERENCES_str1_m))
         {
             sM = mSettings.getString(APP_PREFERENCES_str1_m, "none");
             editTextM.setText(sM);
-        }else  editTextM.setText(0);
+        }else  editTextM.setText("0");
         if (mSettings.contains(APP_PREFERENCES_str1_d))
         {
             sD = mSettings.getString(APP_PREFERENCES_str1_d,"none");
             editTextD.setText(sD);
-        }else  editTextD.setText(0);
+        }else  editTextD.setText("0");
 
         //else {string_date ="08-03-2017"; textVisluga.setText("Заполните\n для расчета\n выслуги");}
 
