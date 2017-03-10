@@ -37,11 +37,11 @@ public final class R {
         public static final int right_arrow=0x7f020008;
     }
     public static final class id {
-        public static final int BtnNow=0x7f0a0004;
+        public static final int BtnNow=0x7f0a0001;
         public static final int Btncancel=0x7f0a000d;
         public static final int Btnsave=0x7f0a000e;
-        public static final int TextView1=0x7f0a0001;
-        public static final int TextView2=0x7f0a0003;
+        public static final int TextView1=0x7f0a0002;
+        public static final int TextView2=0x7f0a0004;
         public static final int back=0x7f0a0011;
         public static final int calendar1=0x7f0a0000;
         public static final int calendar_gridview=0x7f0a0023;
@@ -58,7 +58,7 @@ public final class R {
         public static final int editTextM=0x7f0a0019;
         public static final int editTextY=0x7f0a0017;
         public static final int exit=0x7f0a0029;
-        public static final int horizontalScrollView1=0x7f0a0002;
+        public static final int horizontalScrollView1=0x7f0a0003;
         public static final int months_infinite_pager=0x7f0a0021;
         public static final int ok=0x7f0a0010;
         public static final int smena1=0x7f0a0024;

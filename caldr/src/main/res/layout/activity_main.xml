@@ -16,8 +16,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         tools:ignore="RtlHardcoded"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/BtnNow">
 
     </LinearLayout>
 
@@ -36,24 +36,20 @@
         tools:ignore="RtlHardcoded"
         android:layout_above="@+id/calendar1"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/TextView1">
+        android:layout_alignRight="@+id/TextView1"
+        android:visibility="visible"
+        android:scrollbars="horizontal|vertical">
 
         <TextView
             android:id="@+id/TextView2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="0"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:text="Сост. см.:"
+            android:textSize="10sp" />
 
     </HorizontalScrollView>
-
-    <Button
-        android:id="@+id/BtnNow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/_"
-        tools:ignore="RtlHardcoded"
-        style="@android:style/Widget.Button.Small"
-        android:layout_above="@+id/calendar1"
-        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView"
@@ -64,11 +60,23 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="12321"
+        android:text="Задайте в настройках даты сл."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textVisluga"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/BtnNow"
+        android:layout_width="match_parent"
+        android:text="@string/_"
+        style="@android:style/Widget.Button.Small"
+        android:textSize="12sp"
+        android:layout_above="@+id/textVisluga"
+        android:layout_alignParentStart="true"
+        android:layout_height="30dp" />
 
 </RelativeLayout>

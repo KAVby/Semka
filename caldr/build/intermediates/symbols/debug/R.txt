@@ -18,11 +18,11 @@ int drawable left_arrow 0x7f020005
 int drawable red_border 0x7f020006
 int drawable red_border_gray_bg 0x7f020007
 int drawable right_arrow 0x7f020008
-int id BtnNow 0x7f0a0004
+int id BtnNow 0x7f0a0001
 int id Btncancel 0x7f0a000d
 int id Btnsave 0x7f0a000e
-int id TextView1 0x7f0a0001
-int id TextView2 0x7f0a0003
+int id TextView1 0x7f0a0002
+int id TextView2 0x7f0a0004
 int id back 0x7f0a0011
 int id calendar1 0x7f0a0000
 int id calendar_gridview 0x7f0a0023
@@ -39,7 +39,7 @@ int id editTextD 0x7f0a0018
 int id editTextM 0x7f0a0019
 int id editTextY 0x7f0a0017
 int id exit 0x7f0a0029
-int id horizontalScrollView1 0x7f0a0002
+int id horizontalScrollView1 0x7f0a0003
 int id months_infinite_pager 0x7f0a0021
 int id ok 0x7f0a0010
 int id smena1 0x7f0a0024

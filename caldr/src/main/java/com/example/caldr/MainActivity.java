@@ -24,6 +24,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+import static com.example.caldr.R.id.TextView2;
 import static java.util.Calendar.YEAR;
 
 
@@ -52,7 +53,7 @@ public class MainActivity extends FragmentActivity {
 		BtnNow = (Button) findViewById(R.id.BtnNow);
 		final TextView mText3 = (TextView) findViewById(R.id.TextView1) ;
 		final TextView mText = (TextView) findViewById(R.id.textView) ;
-		final TextView mText4 = (TextView) findViewById(R.id.TextView2) ;
+		final TextView mText4 = (TextView) findViewById(TextView2) ;
         final TextView textVisluga = (TextView) findViewById(R.id.textVisluga) ;
 
 		 mText4.setMovementMethod(new ScrollingMovementMethod());
@@ -69,7 +70,6 @@ public class MainActivity extends FragmentActivity {
 		FragmentTransaction t = getSupportFragmentManager().beginTransaction();
 		t.replace(R.id.calendar1, caldroidFragment);
 		t.commit();
-
 		mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);   //инициализирую файл настроек
 		if (mSettings.contains(APP_PREFERENCES_COUNTER)) //если параметр номер смены в файле уже создан, то берем его
 			// Получаем число из настроек
@@ -111,7 +111,7 @@ public class MainActivity extends FragmentActivity {
             c1 = Calendar.getInstance();
             c1.setTime(date);
             c2 = Calendar.getInstance();
-            textVisluga.setText("Выслуга:" + "\nЛет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + "\nМесяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + "\nДней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD));
+            textVisluga.setText("Выслуга: " + "Лет  " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + "  Месяцев  " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + "  Дней  " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD));
         }
 
 

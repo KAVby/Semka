@@ -6,7 +6,7 @@ ADDED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml:2:1-4
 		INJECTED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml:5:5-30
+		ADDED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml:5:5-28
 		INJECTED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\workspace2\caldr1\caldr\src\main\AndroidManifest.xml
 	android:versionCode
