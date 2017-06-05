@@ -25,6 +25,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import static com.example.caldr.R.id.TextView2;
+import static com.example.caldr.R.id.textView;
 import static java.util.Calendar.YEAR;
 
 
@@ -45,7 +46,7 @@ public class MainActivity extends FragmentActivity {
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm, yotno;  //для выбора смены
 	String string1, string2, string3, string_date, sY, sM, sD;
-    Calendar c1,c2;
+    Calendar c1,c2,   ch1,ch2,ch3;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -182,12 +183,25 @@ public class MainActivity extends FragmentActivity {
 			double res2 = src - res; //дробная часть			
 			double src2 = (i+1)/3;
 			int res3 = (int)src2; //целая часть
-			double res4 = src2 - res3; //дробная часть	
-			int j;
-			if (res2==0) {cal.add(cal.DAY_OF_MONTH, 1-nsm);
+			double res4 = src2 - res3; //дробная часть
+//				 ch1.set(Calendar.MONTH, month);
+//				 ch1.set(Calendar.YEAR, year);
+//				 ch1.set(Calendar.DAY_OF_MONTH, 1);
+//
+//				 for (int y=ch1.DAY_OF_MONTH;y<=ch1.getActualMaximum(Calendar.DAY_OF_MONTH);y=ch1.DAY_OF_MONTH+1)
+//				 {}
+int fivtin=0;
+				 int j;
+			if (res2==0) {
+
+				cal.add(cal.DAY_OF_MONTH, 1-nsm);
 				 for (j=1; j<50; j=j+1){
 				        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
-				        cal.add(cal.DAY_OF_MONTH, 3);}
+
+				        cal.add(cal.DAY_OF_MONTH, 3);
+					 if (cal.get(Calendar.MONTH)==month)
+						 fivtin=fivtin+1;
+				 } mText.setText("m"+fivtin);
 				}
 			else 
 				if ((res2)>0 & (res4)>0) {cal.add(cal.DAY_OF_MONTH, -nsm);
@@ -215,7 +229,7 @@ public class MainActivity extends FragmentActivity {
 		@Override
 			public void onSelectDate(Date date, View view) {
 				// TODO Auto-generated method stub
-			
+
 			alg(date);
 			if (previousDate != null   ){
 			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, previousDate);

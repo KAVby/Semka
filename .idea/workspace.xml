@@ -12,6 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24aa5497-2748-40e5-8002-cdb1a335b9a5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/49034956052061/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/50573441277727/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/51042832837635/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53104272536566/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53179830008474/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/53229775853244/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/56158412965143/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/58024748521049/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/58773462399155/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/builds/debug/58998497644968/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/androidTest/debug/com/example/caldr/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -19,48 +31,37 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_caldr_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/classes/debug/com/example/caldr/VislugaActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental-verifier/debug/com/example/caldr/VislugaActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/Ws0v5gbBHj9_1N32I1b5OoxurAg=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/date4j_d9906706f605f311e90dac4b9736dadaec9de387.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/date4j_d9906706f605f311e90dac4b9736dadaec9de387.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b364b9c3cf165c609706555f77072f52ab1562e6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run_6ec3a03267abb84356d854d153dbec26b1ad59b8.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/instant-run_6ec3a03267abb84356d854d153dbec26b1ad59b8.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/main_5d675c80be3b6632720e7e3b7e9714fc0c5efa1c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" afterPath="$PROJECT_DIR$/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/BuildConfig.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$1.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$2.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/VislugaActivity.class" afterPath="$PROJECT_DIR$/caldr/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/caldr/VislugaActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" afterPath="$PROJECT_DIR$/caldr/build/outputs/apk/caldr-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/generated/source/buildConfig/debug/com/example/caldr/BuildConfig.java" afterPath="$PROJECT_DIR$/caldr/build/generated/source/buildConfig/debug/com/example/caldr/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/caldr/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/instant-run-support/debug/manifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_visluga.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/res/merged/debug/layout/activity_visluga.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/caldr/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/caldr/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/caldr.iml" afterPath="$PROJECT_DIR$/caldr/caldr.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" afterPath="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" afterPath="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,10 +94,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="196" column="42" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="731">
               <caret line="43" column="38" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="38" />
               <folding />
             </state>
@@ -109,7 +120,7 @@
       <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="323">
               <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
               <folding />
             </state>
@@ -121,10 +132,7 @@
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1489175708083" expanded="true" signature="2009:2296" ph="..." />
-                <marker date="1489175708083" expanded="true" signature="2620:2905" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
@@ -135,17 +143,17 @@
       <file leaf-file-name="VislugaActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_visluga.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_visluga.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="1173">
               <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
               <folding />
             </state>
@@ -171,18 +179,8 @@
       <file leaf-file-name="DifDate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
+            <state relative-caret-position="459">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2514,8 +2512,8 @@
         <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java" />
-        <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
         <option value="$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml" />
+        <option value="$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2550,8 +2548,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2560,105 +2556,11 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr1" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caldr" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -2667,7 +2569,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/caldr/src/main/res/layout" />
-    <property name="device.picker.selection" value="emulator-5554" />
+    <property name="device.picker.selection" value="AVD_for_Nexus_4_by_Google" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="170" />
   </component>
@@ -2990,33 +2892,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48722318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30664396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29642248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19894099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48722318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25383306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16354345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16792738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44974446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3024,6 +2925,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19894099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3055,48 +2957,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
-          <line>117</line>
+          <line>202</line>
           <properties />
-          <option name="timeStamp" value="154" />
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
-          <line>118</line>
+          <line>194</line>
           <properties />
-          <option name="timeStamp" value="155" />
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
-          <line>119</line>
+          <line>196</line>
           <properties />
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="158" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="160" />
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="161" />
+      <option name="time" value="176" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3413,7 +3291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="1245" column="15" selection-start-line="1245" selection-start-column="15" selection-end-line="1245" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3421,7 +3298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3429,7 +3305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3437,27 +3312,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/DifDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
+        <state relative-caret-position="459">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/AndroidManifest.xml">
@@ -3475,10 +3338,29 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489175708083" expanded="true" signature="2009:2296" ph="..." />
-            <marker date="1489175708083" expanded="true" signature="2620:2905" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3487,37 +3369,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="323">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/VislugaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caldr/src/main/res/layout/activity_visluga.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+    <entry file="file://$PROJECT_DIR$/caldr/src/main/java/com/example/caldr/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="196" column="42" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
   </component>
