@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "file": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +38,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +64,33 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 187
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

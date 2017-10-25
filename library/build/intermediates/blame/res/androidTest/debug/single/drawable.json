@@ -1,74 +1,98 @@
 [
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/red_border.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/red_border.xml"
     },
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
     },
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
     },
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
     },
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/red_border_gray_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/red_border_gray_bg.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/cell_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/cell_bg.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/left_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/left_arrow.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/right_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/right_arrow.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
-        "source": "C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\right_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
     },
     {
-        "merged": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cell_bg.xml",
-        "source": "C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border_gray_bg.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
     },
     {
-        "merged": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
-        "source": "D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\disable_cell.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/res/merged/androidTest/debug/drawable/disable_cell.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/library/build/intermediates/bundles/debug/res/drawable/disable_cell.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\Android\\Android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\red_border.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+    },
+    {
+        "merged": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\left_arrow.xml",
+        "source": "/Volumes/D/ANDROID/caldr1/D:\\workspace\\StudioProjects\\caldr1\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
     }
 ]
