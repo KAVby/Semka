@@ -4,6 +4,10 @@
         "source": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/menu/menu_main.xml"
     },
     {
+        "merged": "/Volumes/D/android/caldr1/caldr/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Volumes/D/android/caldr1/caldr/src/main/res/menu/menu_main.xml"
+    },
+    {
         "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\menu\\menu_main.xml"
     }

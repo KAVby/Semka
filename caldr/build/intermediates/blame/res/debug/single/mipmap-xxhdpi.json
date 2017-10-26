@@ -1,10 +1,14 @@
 [
     {
+        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Volumes/D/android/caldr1/caldr/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Volumes/D/android/caldr1/caldr/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

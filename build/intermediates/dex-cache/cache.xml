@@ -3,30 +3,30 @@
 
     <item
         is-multidex="false"
+        jar="/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/jars/libs/date4j.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="543efec7c462ed7b5eabf8fc77f87bd35e18cd0b">
+        <dex dex="/Volumes/D/android/caldr1/caldr/build/intermediates/pre-dexed/debug/date4j_e627ba731cc96d80b38315f9d2bda59d2e2bf73d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/sas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_ff4d9c9cd5db20b58f92dc60993b19025b9afbf6.jar" />
+        <dex dex="/Volumes/D/android/caldr1/caldr/build/intermediates/pre-dexed/debug/support-v4-19.1.0_ff4d9c9cd5db20b58f92dc60993b19025b9afbf6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/jars/libs/date4j.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="543efec7c462ed7b5eabf8fc77f87bd35e18cd0b">
-        <dex dex="/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/pre-dexed/debug/date4j_5afd19d79584b21130b551ed726af62bd5d96b42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/jars/classes.jar"
+        jar="/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4ef8a575af08eba03c59dabbdd1212aa8a36be66">
-        <dex dex="/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/pre-dexed/debug/caldr1-library-unspecified_c89385461ca59f12467ca3aec5ad4368bb3ca613.jar" />
+        <dex dex="/Volumes/D/android/caldr1/caldr/build/intermediates/pre-dexed/debug/caldr1-library-unspecified_a2f5bcb97452aa989ecc2cf9c0844d0cbd92881b.jar" />
     </item>
 
 </items>

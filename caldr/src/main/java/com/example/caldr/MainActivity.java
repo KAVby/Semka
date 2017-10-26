@@ -157,7 +157,9 @@ public class MainActivity extends FragmentActivity {
 					    mText3.setText("Вторая смена  " +"\n"+formattedDate.format(cal2.getTime())) ;
 					    mText4.setText(string2) ;
 					  }
-				textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
+				if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+					// Получаем число из настроек
+					textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
 
 				
 			}
@@ -290,7 +292,9 @@ int fivtin=0;
 						    mText3.setText("Вторая смена"+"\n"+formattedDate.format(cal3.getTime()));
 						    mText4.setText(string2) ;
 					      }
-				textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal3, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal3, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal3, sY, sM, sD)+";");
+				if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+					// Получаем число из настроек
+					textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal3, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal3, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal3, sY, sM, sD)+";");
 
 
 			}
