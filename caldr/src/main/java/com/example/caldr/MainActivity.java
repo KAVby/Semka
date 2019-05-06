@@ -22,6 +22,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import static com.example.caldr.R.id.TextView2;
@@ -30,7 +32,8 @@ import static java.util.Calendar.YEAR;
 
 
 public class MainActivity extends FragmentActivity {
-	Date previousDate = null;
+    int mmm;
+    Date previousDate = null;
 	Date userSelectedDate = null;
 	Date f1 = new Date(); // текущая дата
 	 public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
@@ -47,6 +50,7 @@ public class MainActivity extends FragmentActivity {
 	int nsm, yotno;  //для выбора смены
 	String string1, string2, string3, string_date, sY, sM, sD;
     Calendar c1,c2,   ch1,ch2,ch3;
+    CheckBox checkBox2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -56,8 +60,8 @@ public class MainActivity extends FragmentActivity {
 		final TextView mText3 = (TextView) findViewById(R.id.TextView1) ;
 		final TextView mText = (TextView) findViewById(R.id.textView) ;
 		final TextView mText4 = (TextView) findViewById(TextView2) ;
-        final TextView textVisluga = (TextView) findViewById(R.id.textVisluga) ;
-
+		checkBox2 = (CheckBox)findViewById(R.id.checkBox2);
+       // final TextView textVisluga = (TextView) findViewById(R.id.textVisluga) ;
 		 mText4.setMovementMethod(new ScrollingMovementMethod());
 		final CaldroidFragment caldroidFragment = new CaldroidFragment();
 		Bundle args = new Bundle();
@@ -113,16 +117,18 @@ public class MainActivity extends FragmentActivity {
             c1 = Calendar.getInstance();
             c1.setTime(date);
             c2 = Calendar.getInstance();
-            textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD)+";");
+     //       textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, c2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, c2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, c2, sY, sM, sD)+";");
         }
-         else {string_date ="08-03-2017"; textVisluga.setText("Заполните в настр. даты для расч. выслуги");}
+     //    else {string_date ="08-03-2017"; textVisluga.setText("Заполните в настр. даты для расч. выслуги");}
         if (mSettings.contains(APP_PREFERENCES_str1_yotno)) {
            yotno = mSettings.getInt(APP_PREFERENCES_str1_yotno, 0);
-            if (yotno==2)
-                textVisluga.setVisibility(View.INVISIBLE);
-            else textVisluga.setVisibility(View.VISIBLE);
+       //     if (yotno==2)
+       //         textVisluga.setVisibility(View.INVISIBLE);
+       //     else textVisluga.setVisibility(View.VISIBLE);
         }
-
+        checkBox2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked){
 
 
 		final CaldroidListener listener = new CaldroidListener() {
@@ -157,9 +163,9 @@ public class MainActivity extends FragmentActivity {
 					    mText3.setText("Вторая смена  " +"\n"+formattedDate.format(cal2.getTime())) ;
 					    mText4.setText(string2) ;
 					  }
-				if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+			//	if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
 					// Получаем число из настроек
-					textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
+		//			textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
 
 				
 			}
@@ -195,37 +201,40 @@ public class MainActivity extends FragmentActivity {
 //				 {}
 int fivtin=0;
 				 int j;
-			if (res2==0) {
 
-				cal.add(cal.DAY_OF_MONTH, 1-nsm);
-				 for (j=1; j<50; j=j+1){
-				        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
+						 if (res2 == 0) {
 
-				        cal.add(cal.DAY_OF_MONTH, 3);
-					 if (cal.get(Calendar.MONTH)==month)
-						 fivtin=fivtin+1;
-				 } mText.setText("m"+fivtin);
-				}
-			else 
-				if ((res2)>0 & (res4)>0) {cal.add(cal.DAY_OF_MONTH, -nsm);
-		     for (j=1; j<50; j=j+1){
-		        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
-		        cal.add(cal.DAY_OF_MONTH, 3);}
-					}
-			      else {
-			    	   cal.add(cal.DAY_OF_MONTH, 2-nsm);
-						 for (j=1; j<50; j=j+1){
-						        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
-						        cal.add(cal.DAY_OF_MONTH, 3);}
-			      }
+							 cal.add(cal.DAY_OF_MONTH, 1 - nsm);
+							 for (j = 1; j < 50; j = j + 1) {
+								 //		        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
 
-			mText3.setText("Выбери дату   ");
-			
-   //  		alg(d1);
-		     
-             }
+								 cal.add(cal.DAY_OF_MONTH, 3);
+								 if (cal.get(Calendar.MONTH) == month)
+									 fivtin = fivtin + 1;
+							 }
+							 mText.setText("m" + fivtin);
+						 } else if ((res2) > 0 & (res4) > 0) {
+							 cal.add(cal.DAY_OF_MONTH, -nsm);
+							 for (j = 1; j < 50; j = j + 1) {
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+								 cal.add(cal.DAY_OF_MONTH, 3);
+							 }
+						 } else {
+							 cal.add(cal.DAY_OF_MONTH, 2 - nsm);
+							 for (j = 1; j < 50; j = j + 1) {
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+								 cal.add(cal.DAY_OF_MONTH, 3);
+							 }
+						 }
+
+						 mText3.setText("Выбери дату   ");
+
+						 //  		alg(d1);
+
+					 }
 			 
-			 
+
 			 
 			 
 		@SuppressWarnings("unused")
@@ -248,7 +257,11 @@ int fivtin=0;
 		
 		};
 		
-		caldroidFragment.setCaldroidListener(listener);	
+		caldroidFragment.setCaldroidListener(listener);
+}
+        }
+        }
+        );
 		
 		OnClickListener BtnNowClc = new OnClickListener() {
 			
@@ -292,9 +305,9 @@ int fivtin=0;
 						    mText3.setText("Вторая смена"+"\n"+formattedDate.format(cal3.getTime()));
 						    mText4.setText(string2) ;
 					      }
-				if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+		//		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
 					// Получаем число из настроек
-					textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal3, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal3, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal3, sY, sM, sD)+";");
+		//			textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal3, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal3, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal3, sY, sM, sD)+";");
 
 
 			}
@@ -303,11 +316,11 @@ int fivtin=0;
 		};	
 	   
 		BtnNow.setOnClickListener(BtnNowClc);
-		
-		
-		
-		
-	}
+
+
+
+
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

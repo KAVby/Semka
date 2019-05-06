@@ -12,12 +12,12 @@
 
     <LinearLayout
         android:id="@+id/calendar1"
-        android:layout_width="wrap_content"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/checkBox2"
+        android:layout_marginBottom="23dp"
         android:orientation="horizontal"
-        tools:ignore="RtlHardcoded"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/BtnNow">
+        tools:ignore="RtlHardcoded">
 
     </LinearLayout>
 
@@ -59,24 +59,32 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:text="Задайте в настройках даты сл."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textVisluga"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="false"
-        android:layout_centerVertical="false"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:id="@+id/BtnNow"
-        android:layout_width="match_parent"
-        android:text="@string/_"
         style="@android:style/Widget.Button.Small"
-        android:textSize="12sp"
-        android:layout_above="@+id/textVisluga"
-        android:layout_alignParentStart="true"
-        android:layout_height="30dp" />
+        android:layout_width="395dp"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:text="@string/_"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BtnNow"
+        android:layout_marginBottom="24dp"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BtnNow"
+        android:layout_alignEnd="@+id/calendar1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="21dp"
+        android:text="CheckBox" />
 
 </RelativeLayout>

@@ -9,17 +9,7 @@
     <color name="caldroid_sky_blue">#FFA3E8F7</color>
     <color name="caldroid_transparent">#00000000</color>
     <color name="caldroid_white">#FFFFFF</color>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <string name="_">Вернуться на сегодня</string>
-    <string name="action_exit">Выход</string>
-    <string name="action_settings1">Подсветить первкю смену</string>
-    <string name="action_settings2">Подсветить вторую смену</string>
-    <string name="action_settings3">Подсветить третью смену</string>
-    <string name="action_sostav">Изм. состав смен</string>
-    <string name="app_name">Календарь смен РЦУ</string>
-    <string name="app_set">Настройки</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">CalendarFragment</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
