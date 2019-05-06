@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 196
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 317
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 370
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 424
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 481
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 530
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,434 +182,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 89,
-                        "endColumn": 57,
-                        "endOffset": 142
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 55,
-                    "endOffset": 644
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 147,
-                        "endColumn": 55,
-                        "endOffset": 198
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 649,
-                    "endColumn": 50,
-                    "endOffset": 695
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 523,
-                        "endColumn": 50,
-                        "endOffset": 569
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 700,
-                    "endColumn": 45,
-                    "endOffset": 741
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 431,
-                        "endColumn": 45,
-                        "endOffset": 472
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 746,
-                    "endColumn": 68,
-                    "endOffset": 810
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 165,
-                        "endColumn": 68,
-                        "endOffset": 229
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 815,
-                    "endColumn": 68,
-                    "endOffset": 879
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 234,
-                        "endColumn": 68,
-                        "endOffset": 298
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 884,
-                    "endColumn": 68,
-                    "endOffset": 948
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 303,
-                        "endColumn": 68,
-                        "endOffset": 367
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 953,
-                    "endColumn": 58,
-                    "endOffset": 1007
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 372,
-                        "endColumn": 58,
-                        "endOffset": 426
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1012,
-                    "endColumn": 55,
-                    "endOffset": 1063
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 55,
-                        "endOffset": 107
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1068,
-                    "endColumn": 45,
-                    "endOffset": 1109
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 477,
-                        "endColumn": 45,
-                        "endOffset": 518
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1114,
-                    "endColumn": 52,
-                    "endOffset": 1162
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 112,
-                        "endColumn": 52,
-                        "endOffset": 160
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1167,
-                    "endLine": 28,
-                    "endColumn": 12,
-                    "endOffset": 1453
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 186,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 472
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 1458,
-                    "endLine": 31,
-                    "endColumn": 12,
-                    "endOffset": 1613
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 665
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 48,
-                    "endOffset": 99
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 48,
-                        "endOffset": 99
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 104,
-                    "endColumn": 51,
-                    "endOffset": 151
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 104,
-                        "endColumn": 51,
-                        "endOffset": 151
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 156,
-                    "endColumn": 44,
-                    "endOffset": 196
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 156,
-                        "endColumn": 44,
-                        "endOffset": 196
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 201,
-                    "endColumn": 59,
-                    "endOffset": 256
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 201,
-                        "endColumn": 59,
-                        "endOffset": 256
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 261,
-                    "endColumn": 60,
-                    "endOffset": 317
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 261,
-                        "endColumn": 60,
-                        "endOffset": 317
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 322,
-                    "endColumn": 52,
-                    "endOffset": 370
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 322,
-                        "endColumn": 52,
-                        "endOffset": 370
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 375,
-                    "endColumn": 53,
-                    "endOffset": 424
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 375,
-                        "endColumn": 53,
-                        "endOffset": 424
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 429,
-                    "endColumn": 56,
-                    "endOffset": 481
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 429,
-                        "endColumn": 56,
-                        "endOffset": 481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 486,
-                    "endColumn": 48,
-                    "endOffset": 530
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 486,
-                        "endColumn": 48,
-                        "endOffset": 530
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 535,
-                    "endColumn": 57,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -628,7 +201,7 @@
                     "endOffset": 644
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -647,7 +220,7 @@
                     "endOffset": 695
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -666,7 +239,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -685,7 +258,7 @@
                     "endOffset": 810
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -704,7 +277,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -723,7 +296,7 @@
                     "endOffset": 948
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -742,7 +315,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -761,7 +334,7 @@
                     "endOffset": 1063
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -780,7 +353,7 @@
                     "endOffset": 1109
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -799,7 +372,7 @@
                     "endOffset": 1162
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -819,7 +392,7 @@
                     "endOffset": 1453
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -840,7 +413,7 @@
                     "endOffset": 1613
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -854,7 +427,7 @@
         ]
     },
     {
-        "outputFile": "/Volumes/D/android/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -865,7 +438,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -884,7 +457,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -903,7 +476,7 @@
                     "endOffset": 196
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -922,7 +495,7 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -941,7 +514,7 @@
                     "endOffset": 317
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -960,7 +533,7 @@
                     "endOffset": 370
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -979,7 +552,7 @@
                     "endOffset": 424
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -998,7 +571,7 @@
                     "endOffset": 481
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1017,7 +590,7 @@
                     "endOffset": 530
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/build/intermediates/exploded-aar/caldr1/library/unspecified/res/values/values.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1036,7 +609,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/dimens.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1055,7 +628,7 @@
                     "endOffset": 644
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/dimens.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1074,7 +647,7 @@
                     "endOffset": 695
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1093,7 +666,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1112,7 +685,7 @@
                     "endOffset": 810
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1131,7 +704,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1150,7 +723,7 @@
                     "endOffset": 948
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1169,7 +742,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1188,7 +761,7 @@
                     "endOffset": 1063
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1207,7 +780,7 @@
                     "endOffset": 1109
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1226,7 +799,7 @@
                     "endOffset": 1162
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/strings.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1246,7 +819,7 @@
                     "endOffset": 1453
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/styles.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1267,7 +840,861 @@
                     "endOffset": 1613
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values/styles.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 51,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 51,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 44,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 44,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 59,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 59,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 60,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 60,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 52,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endColumn": 52,
+                        "endOffset": 370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 375,
+                    "endColumn": 53,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 375,
+                        "endColumn": 53,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 429,
+                    "endColumn": 56,
+                    "endOffset": 481
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 56,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 486,
+                    "endColumn": 48,
+                    "endOffset": 530
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\exploded-aar\\Semka\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 486,
+                        "endColumn": 48,
+                        "endOffset": 530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 535,
+                    "endColumn": 57,
+                    "endOffset": 588
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 593,
+                    "endColumn": 55,
+                    "endOffset": 644
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 649,
+                    "endColumn": 50,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 534,
+                        "endColumn": 50,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 45,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 45,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endColumn": 68,
+                    "endOffset": 810
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 68,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 815,
+                    "endColumn": 68,
+                    "endOffset": 879
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 68,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 884,
+                    "endColumn": 68,
+                    "endOffset": 948
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 68,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 953,
+                    "endColumn": 58,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 58,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 55,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 55,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endColumn": 45,
+                    "endOffset": 1109
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 45,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1114,
+                    "endColumn": 52,
+                    "endOffset": 1162
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 52,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1167,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1453
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1458,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 51,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 51,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 44,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 44,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 59,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 59,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 60,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 60,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 52,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endColumn": 52,
+                        "endOffset": 370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 375,
+                    "endColumn": 53,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 375,
+                        "endColumn": 53,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 429,
+                    "endColumn": 56,
+                    "endOffset": 481
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 56,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 486,
+                    "endColumn": 48,
+                    "endOffset": 530
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\exploded-aar\\caldr1\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 486,
+                        "endColumn": 48,
+                        "endOffset": 530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 535,
+                    "endColumn": 57,
+                    "endOffset": 588
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 593,
+                    "endColumn": 55,
+                    "endOffset": 644
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 649,
+                    "endColumn": 50,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 50,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 45,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 45,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endColumn": 68,
+                    "endOffset": 810
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 68,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 815,
+                    "endColumn": 68,
+                    "endOffset": 879
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 68,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 884,
+                    "endColumn": 68,
+                    "endOffset": 948
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 68,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 953,
+                    "endColumn": 58,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 58,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 55,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 55,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endColumn": 45,
+                    "endOffset": 1109
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 45,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1114,
+                    "endColumn": 52,
+                    "endOffset": 1162
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 112,
+                        "endColumn": 52,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1167,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1453
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1458,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

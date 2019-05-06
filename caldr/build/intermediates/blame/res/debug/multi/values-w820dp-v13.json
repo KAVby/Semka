@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values-w820dp/dimens.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/Volumes/D/android/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -59,13 +59,37 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values-w820dp/dimens.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
                         "startOffset": 305,
                         "endColumn": 57,
                         "endOffset": 358
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 57,
+                        "endOffset": 365
                     }
                 }
             }

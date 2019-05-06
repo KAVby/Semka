@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/caldr/src/main/res/values-v14/styles.xml",
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 375
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "D:\\Volumes\\D\\ANDROID\\caldr1\\caldr\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -26,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "/Volumes/D/android/caldr1/caldr/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "outputFile": "D:\\Volumes\\D\\android\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +64,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "/Volumes/D/android/caldr1/caldr/src/main/res/values-v14/styles.xml",
+                    "file": "D:\\Volumes\\D\\android\\caldr1\\caldr\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -52,7 +78,7 @@
         ]
     },
     {
-        "outputFile": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "outputFile": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +90,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "/Volumes/D/ANDROID/caldr1/C:\\Android\\workspace2\\caldr1\\caldr\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "D:\\Aleksandr\\workspace\\StudioProjects\\Semka\\caldr\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
