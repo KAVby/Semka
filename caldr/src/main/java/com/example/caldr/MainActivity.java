@@ -28,7 +28,7 @@ import android.widget.TextView;
 
 import static com.example.caldr.R.id.TextView2;
 import static com.example.caldr.R.id.calendar1;
-import static com.example.caldr.R.id.textView;
+
 import static java.util.Calendar.MONTH;
 import static java.util.Calendar.YEAR;
 
@@ -40,6 +40,7 @@ public class MainActivity extends FragmentActivity {
 	Date f1 = new Date(); // текущая дата
 	 public static final String APP_PREFERENCES = "mysettings"; //название файла для хранения настроек
 	public static final String APP_PREFERENCES_COUNTER = "counter"; // параметр, кот. сохраняем в настройках отвечает за подсветку смены
+	public static final String APP_PREFERENCES_COUNTER2 = "counter2";
 	public static final String APP_PREFERENCES_str1 = "str1";
 	public static final String APP_PREFERENCES_str2 = "str2";
 	public static final String APP_PREFERENCES_str3 = "str3";// параметр, кот. сохраняем в настройках отвечает за состав смены
@@ -49,7 +50,7 @@ public class MainActivity extends FragmentActivity {
 	public static  String APP_PREFERENCES_str1_d = "str1_D";
     public static  String APP_PREFERENCES_str1_yotno = "yotno";
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
-	int nsm, yotno;  //для выбора смены
+	int nsm, nsm2, yotno;  //для выбора смены
 	String string1, string2, string3, string_date, sY, sM, sD;
     Calendar c1,c2,   ch1,ch2;
     CheckBox checkBox2;
@@ -59,12 +60,12 @@ public class MainActivity extends FragmentActivity {
 		Button BtnNow;
 		setContentView(R.layout.activity_main);
 		BtnNow = (Button) findViewById(R.id.BtnNow);
-		final TextView mText3 = (TextView) findViewById(R.id.TextView1) ;
-		final TextView mText = (TextView) findViewById(R.id.textView) ;
-		final TextView mText4 = (TextView) findViewById(TextView2) ;
+//		final TextView mText3 = (TextView) findViewById(R.id.TextView1) ;
+//		final TextView mText = (TextView) findViewById(R.id.textView) ;
+//		final TextView mText4 = (TextView) findViewById(TextView2) ;
 		checkBox2 = (CheckBox)findViewById(R.id.checkBox2);
        // final TextView textVisluga = (TextView) findViewById(R.id.textVisluga) ;
-		 mText4.setMovementMethod(new ScrollingMovementMethod());
+//		 mText4.setMovementMethod(new ScrollingMovementMethod());
 		final CaldroidFragment caldroidFragment = new CaldroidFragment();
 		Bundle args = new Bundle();
 		final Calendar cal = Calendar.getInstance();
@@ -75,7 +76,7 @@ public class MainActivity extends FragmentActivity {
 		final Calendar cal82 = Calendar.getInstance();
 		final Calendar cal83 = Calendar.getInstance();
 		final Calendar cal84 = Calendar.getInstance();
-		checkBox2.setChecked(true);
+//		checkBox2.setChecked(true);
 		args.putInt(CaldroidFragment.MONTH, cal.get(Calendar.MONTH) + 1);
 		args.putInt(CaldroidFragment.YEAR, cal.get(YEAR));
 		args.putInt(CaldroidFragment.START_DAY_OF_WEEK, CaldroidFragment.MONDAY);
@@ -87,6 +88,9 @@ public class MainActivity extends FragmentActivity {
 		if (mSettings.contains(APP_PREFERENCES_COUNTER)) //если параметр номер смены в файле уже создан, то берем его
 			// Получаем число из настроек
 			nsm = mSettings.getInt(APP_PREFERENCES_COUNTER, 0);
+		if (mSettings.contains(APP_PREFERENCES_COUNTER2)) //если параметр номер смены в файле уже создан, то берем его
+			// Получаем число из настроек
+			nsm2 = mSettings.getInt(APP_PREFERENCES_COUNTER2, 0);
 		if (mSettings.contains(APP_PREFERENCES_str1)) //если параметр список смены в файле уже создан, то берем его
 			// Получаем число из настроек
 			 string1 = mSettings.getString(APP_PREFERENCES_str1, "none");
@@ -146,42 +150,42 @@ public class MainActivity extends FragmentActivity {
 // конец вставка для Окса
 
 
-        	public void alg(Date date){
-
-				Date j;
-					cal2.setTime(date);
-					j=cal2.getTime();
-				int w=cal2.get(Calendar.WEEK_OF_YEAR);
-				if ((w%2)==0)
-					mText.setText("1");
-				else mText.setText("2"); //первая или вторая смена у жены взависимости от четности недели
-					double i = j.getTime()/100000/864;
-				double src = i/3;
-				int res = (int)src; //целая часть
-				double res2 = src - res; //дробная часть
-				double src2 = (i+1)/3;
-				int res3 = (int)src2; //целая часть
-				double res4 = src2 - res3; //дробная часть
-				SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
-				if (res2==0) {
-					mText3.setText("Третья смена" +"\n"+formattedDate.format(cal2.getTime()));	
-				    mText4.setText(string3) ;
-				   }
-				else 
-					if ((res2)>0 & (res4)>0) {
-					 mText3.setText("Первая смена" +"\n"+formattedDate.format(cal2.getTime())) ;
-					 mText4.setText(string1) ;
-					}
-				      else {
-					    mText3.setText("Вторая смена  " +"\n"+formattedDate.format(cal2.getTime())) ;
-					    mText4.setText(string2) ;
-					  }
-			//	if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
-					// Получаем число из настроек
-		//			textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
-
-				
-			}
+//        	public void alg(Date date){
+//
+//				Date j;
+//					cal2.setTime(date);
+//					j=cal2.getTime();
+//				int w=cal2.get(Calendar.WEEK_OF_YEAR);
+//				if ((w%2)==0)
+//					mText.setText("1");
+//				else mText.setText("2"); //первая или вторая смена у жены взависимости от четности недели
+//					double i = j.getTime()/100000/864;
+//				double src = i/3;
+//				int res = (int)src; //целая часть
+//				double res2 = src - res; //дробная часть
+//				double src2 = (i+1)/3;
+//				int res3 = (int)src2; //целая часть
+//				double res4 = src2 - res3; //дробная часть
+//				SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
+//				if (res2==0) {
+//					mText3.setText("Третья смена" +"\n"+formattedDate.format(cal2.getTime()));
+//				    mText4.setText(string3) ;
+//				   }
+//				else
+//					if ((res2)>0 & (res4)>0) {
+//					 mText3.setText("Первая смена" +"\n"+formattedDate.format(cal2.getTime())) ;
+//					 mText4.setText(string1) ;
+//					}
+//				      else {
+//					    mText3.setText("Вторая смена  " +"\n"+formattedDate.format(cal2.getTime())) ;
+//					    mText4.setText(string2) ;
+//					  }
+//			//	if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
+//					// Получаем число из настроек
+//		//			textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal2, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal2, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal2, sY, sM, sD)+";");
+//
+//
+//			}
 			public int getMonth(){
 				return month;
 			}
@@ -200,14 +204,15 @@ public class MainActivity extends FragmentActivity {
 				    caldroidFragment.refreshView();
 				 cal.set(year, (month-1), 1,0,0,0);
 				cal8.set(year, (month-1), 1,0,0,0);
+				cal8.add(cal8.DAY_OF_MONTH, -8 );
 				 Date d1 = new Date();
 		     		d1=cal4.getTime();
      		Date d = new Date();
      		d=cal.getTime();
      		double i = d.getTime()/100000/864;
 				double j8 = d.getTime()/100000/864;
-     		mText3.setText("Выберите дату");
-     		mText4.setText("") ;
+//     		mText3.setText("Выберите дату");
+//     		mText4.setText("") ;
      		//mText3.setText("  "+month+"  "+year+"   "+cal.get(Calendar.YEAR)+"  " +(formattedDate.format(d.getTime()))+"  "+(cal.getTime()));
 			double src = i/3;
 			int res = (int)src; //целая часть
@@ -227,6 +232,7 @@ public class MainActivity extends FragmentActivity {
 					cal8.add(cal8.DAY_OF_MONTH, -1 );
 					}
 				int j;
+				cal8.add(cal8.DAY_OF_MONTH, nsm2 );
 				for (j = 1; j < 10; j = j + 1) {
 					cal82.set(cal8.get(YEAR), cal8.get(MONTH), (1+cal8.get(Calendar.DAY_OF_MONTH)));
 					cal83.set(cal8.get(YEAR), cal8.get(MONTH), (2+cal8.get(Calendar.DAY_OF_MONTH)));
@@ -239,13 +245,6 @@ public class MainActivity extends FragmentActivity {
 					cal8.add(cal8.DAY_OF_MONTH, 8);
 				}
 
-
-//				 ch1.set(Calendar.MONTH, month);
-//				 ch1.set(Calendar.YEAR, year);
-//				 ch1.set(Calendar.DAY_OF_MONTH, 1);
-//
-//				 for (int y=ch1.DAY_OF_MONTH;y<=ch1.getActualMaximum(Calendar.DAY_OF_MONTH);y=ch1.DAY_OF_MONTH+1)
-//				 {}
 int fivtin=0;
 
 
@@ -254,28 +253,28 @@ int fivtin=0;
 							 cal.add(cal.DAY_OF_MONTH, 1 - nsm);
 							 for (j = 1; j < 50; j = j + 1) {
 								 //		        caldroidFragment.setTextColorForDate(color.holo_red_light, cal.getTime());
-								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_blue_light, cal.getTime());
 
 								 cal.add(cal.DAY_OF_MONTH, 3);
 								 if (cal.get(Calendar.MONTH) == month)
 									 fivtin = fivtin + 1;
 							 }
-							 mText.setText("m" + fivtin);
+//							 mText.setText("m" + fivtin);
 						 } else if ((res2) > 0 & (res4) > 0) {
 							 cal.add(cal.DAY_OF_MONTH, -nsm);
 							 for (j = 1; j < 50; j = j + 1) {
-								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_blue_light, cal.getTime());
 								 cal.add(cal.DAY_OF_MONTH, 3);
 							 }
 						 } else {
 							 cal.add(cal.DAY_OF_MONTH, 2 - nsm);
 							 for (j = 1; j < 50; j = j + 1) {
-								 caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+								 caldroidFragment.setBackgroundResourceForDate(color.holo_blue_light, cal.getTime());
 								 cal.add(cal.DAY_OF_MONTH, 3);
 							 }
 						 }
 
-						 mText3.setText("Выбери дату   ");
+//						 mText3.setText("Выбери дату   ");
 
 						 //  		alg(d1);
 if (checkBox2.isChecked()==false) {
@@ -291,21 +290,21 @@ for (j = 1; j < 95; j = j + 1) {
 			 
 		@SuppressWarnings("unused")
 		@Override
-			public void onSelectDate(Date date, View view) {
+			public void onSelectDate(Date date, View view) {}
 				// TODO Auto-generated method stub
-
-			alg(date);
-			if (previousDate != null   ){
-			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, previousDate);
-			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_lighter_gray, f1);
-    		caldroidFragment.refreshView();
-				}
-			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_holo_blue_dark, date);
-			previousDate = date;
-			caldroidFragment.refreshView();
-			userSelectedDate = date;
-
-			}
+//
+//			alg(date);
+//			if (previousDate != null   ){
+//			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, previousDate);
+//			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_lighter_gray, f1);
+//    		caldroidFragment.refreshView();
+//				}
+//			caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_holo_blue_dark, date);
+//			previousDate = date;
+//			caldroidFragment.refreshView();
+//			userSelectedDate = date;
+//
+//			}
 		
 		};
 		
@@ -329,43 +328,37 @@ for (j = 1; j < 95; j = j + 1) {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub 
-
 				if (userSelectedDate != null ){
 				    caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, userSelectedDate);
 				    caldroidFragment.refreshView();
 				}
-				
 				 Date f = new Date();
-
-
-
 				 caldroidFragment.moveToDate(f);
 				 caldroidFragment.refreshView();
-
-				cal3.set(cal3.get(Calendar.YEAR),cal3.get(Calendar.MONTH),cal3.get(Calendar.DAY_OF_MONTH),0,0,0 );  // убираем время (мешает при расчете смен)
-		     		f=cal3.getTime();
-		     		caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_holo_blue_dark, f);
-		     		double i = f.getTime()/100000/864;
-					double src = i/3;
-					int res = (int)src; //целая часть
-					double res2 = src - res; //дробная часть
-					double src2 = (i+1)/3;
-					int res3 = (int)src2; //целая часть
-					double res4 = src2 - res3; //дробная часть
-					SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
-					if (res2==0) {
-						mText3.setText("Третья смена" +"\n"+formattedDate.format(cal3.getTime()));
-					    mText4.setText(string3) ;
-					}
-					else 
-						if ((res2)>0 & (res4)>0) {
-						 mText3.setText("Первая смена"+"\n"+formattedDate.format(cal3.getTime())) ;
-						 mText4.setText(string1) ;
-						}
-					      else {
-						    mText3.setText("Вторая смена"+"\n"+formattedDate.format(cal3.getTime()));
-						    mText4.setText(string2) ;
-					      }
+//				cal3.set(cal3.get(Calendar.YEAR),cal3.get(Calendar.MONTH),cal3.get(Calendar.DAY_OF_MONTH),0,0,0 );  // убираем время (мешает при расчете смен)
+//		     		f=cal3.getTime();
+		     		caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_gray, f);
+//		     		double i = f.getTime()/100000/864;
+//					double src = i/3;
+//					int res = (int)src; //целая часть
+//					double res2 = src - res; //дробная часть
+//					double src2 = (i+1)/3;
+//					int res3 = (int)src2; //целая часть
+//					double res4 = src2 - res3; //дробная часть
+//					SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
+//					if (res2==0) {
+//						mText3.setText("Третья смена" +"\n"+formattedDate.format(cal3.getTime()));
+//					    mText4.setText(string3) ;
+//					}
+//					else
+//						if ((res2)>0 & (res4)>0) {
+//						 mText3.setText("Первая смена"+"\n"+formattedDate.format(cal3.getTime())) ;
+//						 mText4.setText(string1) ;
+//						}
+//					      else {
+//						    mText3.setText("Вторая смена"+"\n"+formattedDate.format(cal3.getTime()));
+//						    mText4.setText(string2) ;
+//					      }
 		//		if (mSettings.contains(APP_PREFERENCES_str1_)) //если параметр дата начала службы в файле уже создан, то берем его (дата)
 					// Получаем число из настроек
 		//			textVisluga.setText("Выслуга: " + "Лет - " + DifDate.diferenceDate(Calendar.YEAR, c1, cal3, sY, sM, sD) + ";  Месяцев - " + DifDate.diferenceDate(Calendar.MONTH, c1, cal3, sY, sM, sD) + ";  Дней - " + DifDate.diferenceDate(Calendar.DAY_OF_MONTH, c1, cal3, sY, sM, sD)+";");
@@ -396,6 +389,46 @@ for (j = 1; j < 95; j = j + 1) {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
+		if (id == R.id.sm11) {
+			SharedPreferences.Editor editor = mSettings.edit();
+			editor.putInt(APP_PREFERENCES_COUNTER2, 0);
+			editor.apply();
+			Intent intent = getIntent();
+			finish();
+			startActivity(intent);
+			//		onCreate(Bundle);
+			return true;
+		}
+		if (id == R.id.sm12) {
+			SharedPreferences.Editor editor = mSettings.edit();
+			editor.putInt(APP_PREFERENCES_COUNTER2, 1);
+			editor.apply();
+			Intent intent = getIntent();
+			finish();
+			startActivity(intent);
+			//		onCreate(Bundle);
+			return true;
+		}
+		if (id == R.id.sm13) {
+			SharedPreferences.Editor editor = mSettings.edit();
+			editor.putInt(APP_PREFERENCES_COUNTER2, 2);
+			editor.apply();
+			Intent intent = getIntent();
+			finish();
+			startActivity(intent);
+			//		onCreate(Bundle);
+			return true;
+		}
+		if (id == R.id.sm14) {
+			SharedPreferences.Editor editor = mSettings.edit();
+			editor.putInt(APP_PREFERENCES_COUNTER2, 3);
+			editor.apply();
+			Intent intent = getIntent();
+			finish();
+			startActivity(intent);
+			//		onCreate(Bundle);
+			return true;
+		}
 		if (id == R.id.smena1) {
 
 			SharedPreferences.Editor editor = mSettings.edit();
@@ -429,27 +462,8 @@ for (j = 1; j < 95; j = j + 1) {
 	//		onCreate(Bundle );
 			return true;
 		}
-		if (id == R.id.sostav) {
 
 
-			Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
-			intent.putExtra("sm1", string1);
-			intent.putExtra("sm2", string2);
-			intent.putExtra("sm3", string3);
-			MainActivity.this.finish();
-			startActivity(intent);
-
-			return true;
-		}
-		if (id == R.id.visluga) {
-
-
-			Intent intent = new Intent(MainActivity.this, VislugaActivity.class);
-			MainActivity.this.finish();
-			startActivity(intent);
-
-			return true;
-		}
 		if (id == R.id.exit) {
 
 			this.finish();

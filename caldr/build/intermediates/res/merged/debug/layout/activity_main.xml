@@ -51,14 +51,6 @@
 
     </HorizontalScrollView>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ОКС"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
-
     <Button
         android:id="@+id/BtnNow"
         style="@android:style/Widget.Button.Small"
@@ -74,17 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/BtnNow"
-        android:layout_marginBottom="24dp"
-        android:text="CheckBox" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/BtnNow"
-        android:layout_alignEnd="@+id/calendar1"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="21dp"
-        android:text="CheckBox" />
+        android:layout_marginBottom="10dp"
+        android:text="Показать сутки ч/з двое" />
 
 </RelativeLayout>

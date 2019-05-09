@@ -3,6 +3,18 @@
     tools:context="com.example.caldr.MainActivity" >
 
     <item
+        android:id="@+id/sm11"
+        android:title="Смена1" />
+    <item
+        android:id="@+id/sm12"
+        android:title="Смена2" />
+    <item
+        android:id="@+id/sm13"
+        android:title="Смена3" />
+    <item
+        android:id="@+id/sm14"
+        android:title="Смена4" />
+    <item
         android:id="@+id/smena1"
         android:orderInCategory="100"
         android:showAsAction="never"
@@ -17,16 +29,6 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings3"/>
-    <item
-        android:id="@+id/sostav"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_sostav"/>
-    <item
-        android:id="@+id/visluga"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="Выслуга"/>
     <item
         android:id="@+id/exit"
         android:orderInCategory="100"
