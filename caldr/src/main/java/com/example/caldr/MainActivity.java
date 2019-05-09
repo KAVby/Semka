@@ -29,6 +29,7 @@ import android.widget.TextView;
 import static com.example.caldr.R.id.TextView2;
 import static com.example.caldr.R.id.calendar1;
 import static com.example.caldr.R.id.textView;
+import static java.util.Calendar.MONTH;
 import static java.util.Calendar.YEAR;
 
 
@@ -70,8 +71,11 @@ public class MainActivity extends FragmentActivity {
 		final Calendar cal2 = Calendar.getInstance();
 		final Calendar cal3 = Calendar.getInstance();
 		final Calendar cal4 = Calendar.getInstance();
-		final Calendar ch3 = Calendar.getInstance();
-
+		final Calendar cal8 = Calendar.getInstance();
+		final Calendar cal82 = Calendar.getInstance();
+		final Calendar cal83 = Calendar.getInstance();
+		final Calendar cal84 = Calendar.getInstance();
+		checkBox2.setChecked(true);
 		args.putInt(CaldroidFragment.MONTH, cal.get(Calendar.MONTH) + 1);
 		args.putInt(CaldroidFragment.YEAR, cal.get(YEAR));
 		args.putInt(CaldroidFragment.START_DAY_OF_WEEK, CaldroidFragment.MONDAY);
@@ -134,7 +138,15 @@ public class MainActivity extends FragmentActivity {
 
 		final CaldroidListener listener = new CaldroidListener() {
 
-			public void alg(Date date){
+// вставка для Окса
+
+
+
+
+// конец вставка для Окса
+
+
+        	public void alg(Date date){
 
 				Date j;
 					cal2.setTime(date);
@@ -187,11 +199,13 @@ public class MainActivity extends FragmentActivity {
 				 caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_lighter_gray, f1);
 				    caldroidFragment.refreshView();
 				 cal.set(year, (month-1), 1,0,0,0);
+				cal8.set(year, (month-1), 1,0,0,0);
 				 Date d1 = new Date();
 		     		d1=cal4.getTime();
      		Date d = new Date();
      		d=cal.getTime();
      		double i = d.getTime()/100000/864;
+				double j8 = d.getTime()/100000/864;
      		mText3.setText("Выберите дату");
      		mText4.setText("") ;
      		//mText3.setText("  "+month+"  "+year+"   "+cal.get(Calendar.YEAR)+"  " +(formattedDate.format(d.getTime()))+"  "+(cal.getTime()));
@@ -201,6 +215,31 @@ public class MainActivity extends FragmentActivity {
 			double src2 = (i+1)/3;
 			int res3 = (int)src2; //целая часть
 			double res4 = src2 - res3; //дробная часть
+				double x8;
+				int res8;  //целая часть
+				double res28; //дробная часть
+				x8 = j8/8;
+				res8 = (int)x8; //целая часть
+				 while ((x8 - res8)>0) //дробная часть			);
+				 {  j8=j8-1;
+				 	x8 = j8/8;
+					res8 = (int)x8; //целая часть
+					cal8.add(cal8.DAY_OF_MONTH, -1 );
+					}
+				int j;
+				for (j = 1; j < 10; j = j + 1) {
+					cal82.set(cal8.get(YEAR), cal8.get(MONTH), (1+cal8.get(Calendar.DAY_OF_MONTH)));
+					cal83.set(cal8.get(YEAR), cal8.get(MONTH), (2+cal8.get(Calendar.DAY_OF_MONTH)));
+					cal84.set(cal8.get(YEAR), cal8.get(MONTH), (3+cal8.get(Calendar.DAY_OF_MONTH)));
+							        caldroidFragment.setTextColorForDate(color.holo_green_dark, cal8.getTime());
+									caldroidFragment.setTextColorForDate(color.holo_green_dark, cal82.getTime());
+									caldroidFragment.setTextColorForDate(color.holo_red_dark, cal83.getTime());
+									caldroidFragment.setTextColorForDate(color.holo_red_dark, cal84.getTime());
+					//caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
+					cal8.add(cal8.DAY_OF_MONTH, 8);
+				}
+
+
 //				 ch1.set(Calendar.MONTH, month);
 //				 ch1.set(Calendar.YEAR, year);
 //				 ch1.set(Calendar.DAY_OF_MONTH, 1);
@@ -208,7 +247,7 @@ public class MainActivity extends FragmentActivity {
 //				 for (int y=ch1.DAY_OF_MONTH;y<=ch1.getActualMaximum(Calendar.DAY_OF_MONTH);y=ch1.DAY_OF_MONTH+1)
 //				 {}
 int fivtin=0;
-				 int j;
+
 
 						 if (res2 == 0) {
 
