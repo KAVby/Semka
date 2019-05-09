@@ -27,6 +27,7 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import static com.example.caldr.R.id.TextView2;
+import static com.example.caldr.R.id.calendar1;
 import static com.example.caldr.R.id.textView;
 import static java.util.Calendar.YEAR;
 
@@ -49,7 +50,7 @@ public class MainActivity extends FragmentActivity {
 	private SharedPreferences mSettings; //переменная экземпляра класса, кот отвечает за настройки
 	int nsm, yotno;  //для выбора смены
 	String string1, string2, string3, string_date, sY, sM, sD;
-    Calendar c1,c2,   ch1,ch2,ch3;
+    Calendar c1,c2,   ch1,ch2;
     CheckBox checkBox2;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +70,8 @@ public class MainActivity extends FragmentActivity {
 		final Calendar cal2 = Calendar.getInstance();
 		final Calendar cal3 = Calendar.getInstance();
 		final Calendar cal4 = Calendar.getInstance();
+		final Calendar ch3 = Calendar.getInstance();
+
 		args.putInt(CaldroidFragment.MONTH, cal.get(Calendar.MONTH) + 1);
 		args.putInt(CaldroidFragment.YEAR, cal.get(YEAR));
 		args.putInt(CaldroidFragment.START_DAY_OF_WEEK, CaldroidFragment.MONDAY);
@@ -126,9 +129,7 @@ public class MainActivity extends FragmentActivity {
        //         textVisluga.setVisibility(View.INVISIBLE);
        //     else textVisluga.setVisibility(View.VISIBLE);
         }
-        checkBox2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked){
+
 
 
 		final CaldroidListener listener = new CaldroidListener() {
@@ -169,9 +170,16 @@ public class MainActivity extends FragmentActivity {
 
 				
 			}
-			 public void onChangeMonth(int month, int year) {
+			public int getMonth(){
+				return month;
+			}
+			public int getYear(){
+				return year;
+			}
+			public void onChangeMonth(int month, int year) {
 				 //SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");  // формат даты для отображения
-
+				this.month = month;
+				this.year = year;
 				 if (userSelectedDate != null ){
 					    caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, userSelectedDate);
 					    caldroidFragment.refreshView();
@@ -231,7 +239,12 @@ int fivtin=0;
 						 mText3.setText("Выбери дату   ");
 
 						 //  		alg(d1);
-
+if (checkBox2.isChecked()==false) {
+	cal.set(year, month-1, -15,0,0,0);
+for (j = 1; j < 95; j = j + 1) {
+	caldroidFragment.setBackgroundResourceForDate(R.color.caldroid_white, cal.getTime());
+	cal.add(cal.DAY_OF_MONTH, 1);
+}}
 					 }
 			 
 
@@ -258,11 +271,20 @@ int fivtin=0;
 		};
 		
 		caldroidFragment.setCaldroidListener(listener);
-}
-        }
-        }
-        );
-		
+//}
+ //       }
+//        }
+//        );
+
+		checkBox2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+         int mmmm=listener.getMonth();
+				int yyyy=listener.getYear();
+				{listener.onChangeMonth(mmmm, yyyy);}
+
+			}});
+
+
 		OnClickListener BtnNowClc = new OnClickListener() {
 			
 			@Override

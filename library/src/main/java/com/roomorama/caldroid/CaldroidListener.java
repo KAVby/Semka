@@ -15,6 +15,9 @@ import android.view.View;
  * 
  */
 public abstract class CaldroidListener {
+    protected int month;
+	protected int year;
+
 	/**
 	 * Inform client user has clicked on a date
 	 * @param date
@@ -50,4 +53,8 @@ public abstract class CaldroidListener {
 	public void onCaldroidViewCreated() {
 		// Do nothing
 	}
+
+	public abstract int getMonth();
+
+	public abstract int getYear();
 }
