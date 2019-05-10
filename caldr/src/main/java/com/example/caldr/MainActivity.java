@@ -242,11 +242,11 @@ public class MainActivity extends FragmentActivity {
 									caldroidFragment.setTextColorForDate(color.holo_red_dark, cal83.getTime());
 									caldroidFragment.setTextColorForDate(color.holo_red_dark, cal84.getTime());
 					//caldroidFragment.setBackgroundResourceForDate(color.holo_red_light, cal.getTime());
-					cal8.add(cal8.DAY_OF_MONTH, 8);
+					cal8.add(cal8.DAY_OF_MONTH, 8); //смещение влево для заполнения предыдущего месяца
 				}
 
 int fivtin=0;
-
+				cal.add(cal.DAY_OF_MONTH, -12);
 
 						 if (res2 == 0) {
 
@@ -401,7 +401,7 @@ for (j = 1; j < 95; j = j + 1) {
 		}
 		if (id == R.id.sm12) {
 			SharedPreferences.Editor editor = mSettings.edit();
-			editor.putInt(APP_PREFERENCES_COUNTER2, 1);
+			editor.putInt(APP_PREFERENCES_COUNTER2, 2);
 			editor.apply();
 			Intent intent = getIntent();
 			finish();
@@ -411,7 +411,7 @@ for (j = 1; j < 95; j = j + 1) {
 		}
 		if (id == R.id.sm13) {
 			SharedPreferences.Editor editor = mSettings.edit();
-			editor.putInt(APP_PREFERENCES_COUNTER2, 2);
+			editor.putInt(APP_PREFERENCES_COUNTER2, 4);
 			editor.apply();
 			Intent intent = getIntent();
 			finish();
@@ -421,7 +421,7 @@ for (j = 1; j < 95; j = j + 1) {
 		}
 		if (id == R.id.sm14) {
 			SharedPreferences.Editor editor = mSettings.edit();
-			editor.putInt(APP_PREFERENCES_COUNTER2, 3);
+			editor.putInt(APP_PREFERENCES_COUNTER2, 6);
 			editor.apply();
 			Intent intent = getIntent();
 			finish();
